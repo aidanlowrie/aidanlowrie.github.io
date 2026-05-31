@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="mailto:{{ site.email }}">Email</a>
+    <a href="https://github.com/{{ site.github }}">GitHub</a>
+    <a href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>
+    {% if site.scholar != "" %}<a href="{{ site.scholar }}">Scholar</a>{% endif %}
+    <a href="{{ '/now/' | relative_url }}">Now</a>
+  </div>
+  <p class="colophon">Built as two small static files. © {{ site.time | date: '%Y' }} Aidan Lowrie.</p>
+</footer>

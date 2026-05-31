@@ -1,20 +1,34 @@
-# Site settings
 title: Aidan Lowrie
-email: 
 description: >-
-  Personal website
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aidanlowrie.com" # the base hostname & protocol for your site
-twitter_username: 
-github_username: aidanlowrie
+  MSc Speech and Language Processing, University of Edinburgh.
+  Dialogue, turn-taking, and the biology I came from.
+url: "https://aidanlowrie.com"
+author: Aidan Lowrie
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# [FILL] all of these:
+email: "you@example.com"
+github: "github-handle"
+linkedin: "linkedin-handle"
+scholar: ""          # Google Scholar profile URL, optional — leave "" to hide
 
-# Header pages
-header_pages:
-  - cv.md
-  - contact.md
+permalink: /writing/:title/
+
+collections:
+  projects:
+    output: true
+    permalink: /research/:name/
+
+defaults:
+  - scope: { path: "", type: "projects" }
+    values: { layout: "project" }
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
