@@ -5,51 +5,31 @@ permalink: /birmingham/
 description: Academic focus areas and progression during Aidan Lowrie's Birmingham years.
 ---
 
-This page summarises the academic focus of my Birmingham years, where I moved
-from molecular fundamentals into regulation, systems biology, and data-rich
-biological methods.
+My Birmingham years were where I built the technical base that still shapes how
+I work now. The pattern was consistent: start from mechanism, then push toward
+systems, then learn to choose methods that match the question.
 
-## Programme overview
+In year one, my centre of gravity was molecular biology and chemistry. Genetics,
+metabolism and organic chemistry gave me the basic language for biological
+processes: replication and expression, pathway logic, and reaction mechanisms.
+Alongside that, communication and policy modules forced me to explain technical
+ideas clearly and think about what evidence is for.
 
-- Degree context: Natural Sciences (Biology track), with strong chemistry and
-  quantitative components.
-- Development arc: molecular mechanism -> cellular systems -> circuit-level and
-  omics-level reasoning.
+Year two moved from fundamentals to control and organisation. Cell biology became
+less about components and more about behaviour in context: membranes,
+cytoskeleton, signalling, apoptosis, stem cells and development. In parallel,
+genetics shifted toward regulation architecture in bacteria and eukaryotes, and
+inorganic chemistry deepened the formal side of problem-solving through symmetry,
+structure and spectroscopy. The interdisciplinarity strand reinforced the habit
+of reframing a problem before trying to solve it.
 
-## Year-by-year focus
+Final year pulled those threads together. Cellular neurobiology focused on how
+circuits are built, modified and studied, from plasticity and connectivity to
+causal tools like optogenetics. What Motivates You centred on psychobiological
+models of motivation and evidence-led argument. Omics pushed me into data-rich
+biological inference: method selection, experimental design, and interpretation
+under uncertainty.
 
-### Year One: molecular and chemical foundations
-
-| Module | Main focus | What I built |
-| --- | --- | --- |
-| Genetics | Genomes, DNA replication, transcription/translation, mitosis/meiosis, mutation and DNA repair, inheritance logic. | Mechanistic pathway reasoning from genotype to phenotype. |
-| Organic Chemistry | Carbonyl chemistry, aldehyde/ketone reactivity, carboxylic-acid derivatives, aromaticity/EAS, aromatic synthesis. | Reaction-mechanism fluency and synthetic planning discipline. |
-| Metabolism | Glycolysis, TCA, gluconeogenesis, allostery, haemoglobin behaviour, carbohydrate/lipid metabolism, metabolic case studies. | Multi-pathway integration and quantitative biochemical interpretation. |
-| Science communication/policy modules | Argumentation and research-to-policy translation. | Communication across technical/non-technical contexts. |
-
-### Year Two: regulation, cells, and experimental systems
-
-| Module cluster | Main focus | What I built |
-| --- | --- | --- |
-| Cell Biology (Sem 1 + 2) | Membranes and transport, cytoskeleton, embryology, apoptosis, stem cells, signalling, microscopy. | System-level cell reasoning linking structure, signalling, and fate. |
-| Genetics (Sem 2) | Bacterial gene regulation, chromatin-context eukaryotic regulation, pre-initiation logic, chromosome organisation and segregation. | Regulatory architecture thinking and method comparison (in vivo/in vitro). |
-| Inorganic Chemistry (Sem 1 + 2) | Symmetry/point groups/character tables, molecular vibrations, transition-metal bonding/spectra, solid-state chemistry and defects. | Formal representation skills and structure-property reasoning. |
-| Interdisciplinarity | Seminar/reflection-driven synthesis across domains. | Framing biological questions across disciplinary boundaries. |
-
-### Final Year: neurobiology, motivation, and omics
-
-| Module | Main focus | What I built |
-| --- | --- | --- |
-| Cellular Neurobiology | LTP and associative learning, circuit analysis, optogenetics/thermogenetics, axon guidance/connectivity, plasticity, glia, comparative cognition-neurobiology links. | Causal circuit-level reasoning across species and scales. |
-| What Motivates You | Psychobiological models of motivation; dopamine and motivation disorders; theory-to-evidence synthesis. | Structured scientific argument under coursework-heavy assessment. |
-| Omics | Proteomics/metabolomics/genomics framing, experimental design, MS workflows, hypothesis generation from high-dimensional data. | Technology selection and data interpretation for biological questions. |
-| Data Science + Practical Project | Project-led analytical workstreams. | Applied quantitative workflow and independent delivery. |
-
-## Through-line from Birmingham
-
-- Consistent emphasis on mechanism first, then systems integration.
-- Growing focus on regulation/signalling as the language of biology.
-- Shift from single-pathway explanations toward high-dimensional, data-led
-  inference.
-- Clear bridge from bioscience training into computational and AI-facing
-  research interests.
+Looking back, Birmingham gave me three durable habits: start from first
+principles, care about regulation and dynamics rather than static descriptions,
+and treat methodology as part of the question rather than an afterthought.

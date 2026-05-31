@@ -5,36 +5,24 @@ permalink: /edinburgh/
 description: Current MSc focus at the University of Edinburgh.
 ---
 
-This page summarises my current academic focus at Edinburgh.
+My current work at Edinburgh is focused on dialogue timing: when a system should
+speak, and when it should wait.
 
-## Programme context
+I am on the MSc in Speech and Language Processing and working in the ILCC
+environment, where the emphasis is rigorous modelling and evaluation for spoken
+interaction. The central problem I keep returning to is turn-taking: moving from
+fixed silence-threshold behaviour toward prediction of floor transfer from
+prosodic and lexical cues.
 
-- MSc Speech and Language Processing.
-- Institute for Language, Cognition and Computation (ILCC).
+This sits across several strands at once. There is core speech and language
+modelling, including ASR-facing thinking and robust conversational behaviour.
+There is method design and evaluation discipline from NLP and ML workflows.
+There is also a continuity with my earlier biology training: high-dimensional,
+noisy systems where explanation and prediction both matter.
 
-## Current focus areas
+In practice, Edinburgh is where broad bioscience and systems training is being
+converted into focused research competence in spoken dialogue and computational
+cognition.
 
-| Strand | Main focus | What I am developing |
-| --- | --- | --- |
-| Dialogue and turn-taking | Predicting when speakers yield the floor in conversation, rather than waiting for fixed silence thresholds. | Timing-sensitive modelling for spoken dialogue systems. |
-| Speech and language systems | ASR and spoken-language modelling with emphasis on robust, real-world interaction. | Better integration of prosodic and lexical cues in conversational pipelines. |
-| ML for language and behaviour | Connecting model behaviour to interpretable mechanisms in complex systems. | Evidence-driven model analysis and evaluation design. |
-| Biology-to-AI bridge | Carrying systems-biology intuitions into language and AI research design. | Cross-domain framing of noisy, high-dimensional inference problems. |
-
-## Representative module and project directions
-
-- Advanced NLP and model behaviour analysis.
-- Automatic speech recognition and decoding-oriented thinking.
-- Computer-vision and representation-learning projects that reinforce
-  method-transfer across modalities.
-- Dissertation work on turn-taking prediction in conversational AI.
-
-## Current trajectory
-
-The Edinburgh phase is focused on turning broad bioscience and systems training
-into targeted research competence in speech, dialogue timing, and
-computational cognition.
-
-*Note: this page is currently based on active MSc work and site project
-material. I can expand it with a full week-by-week/module-by-module breakdown
-once Edinburgh note exports are added to the Notion resources folder.*
+*I can expand this page with a module-by-module record once Edinburgh notes are
+added to the Notion resources folder.*
