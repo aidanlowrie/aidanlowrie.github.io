@@ -29,3 +29,9 @@ next entry in that line.
 Outside research I play guitar, spend more time than I can defend on ear
 training and music theory, and have a weakness for games that take their writing
 seriously.
+
+## Academic background
+
+- [Amsterdam University College](/auc/)
+- [University of Birmingham](/birmingham/)
+- [University of Edinburgh](/edinburgh/)
