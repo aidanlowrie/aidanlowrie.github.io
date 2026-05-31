@@ -66,13 +66,13 @@ strong { font-weight:500; }
   display:flex; align-items:baseline; gap:0.5rem; }
 .dot { width:7px; height:7px; border-radius:50%; background:var(--accent); flex:0 0 auto; }
 
-.hero-portrait { margin:1.35rem 0 0; }
+.hero-portrait { margin:0.95rem 0 0; }
 .hero-portrait img {
   display:block;
-  width:clamp(150px, 24vw, 190px);
+  width:clamp(72px, 14vw, 96px);
   aspect-ratio:1 / 1;
   object-fit:cover;
-  object-position:52% 40%;
+  object-position:52% 38%;
   border-radius:50%;
   border:1px solid var(--hairline);
 }
@@ -105,8 +105,8 @@ strong { font-weight:500; }
 .hero .reveal:nth-child(2){animation-delay:0.11s}
 .hero .reveal:nth-child(3){animation-delay:0.17s}
 .hero .reveal:nth-child(4){animation-delay:0.23s}
-.hero .reveal:nth-child(5){animation-delay:0.29s}
-.home-research.reveal{animation-delay:0.36s}
+.hero .reveal:nth-child(5){animation-delay:0.27s}
+.home-research.reveal{animation-delay:0.33s}
 @keyframes rise { to { opacity:1; transform:none; } }
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity:1; transform:none; animation:none; }
