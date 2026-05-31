@@ -35,19 +35,17 @@ a:hover { color:var(--accent-ink); text-decoration:underline; text-underline-off
   display:flex; align-items:baseline; justify-content:space-between;
   gap:1rem; padding-bottom:2.25rem; margin-bottom:2.5rem;
   border-bottom:1px solid var(--hairline); flex-wrap:wrap;
-  position:relative;
-  z-index:80;
 }
 .brand { font-family:var(--serif); font-size:1.1rem; font-weight:500; color:var(--ink); }
 .brand:hover { text-decoration:none; color:var(--accent-ink); }
-.nav-links { display:flex; align-items:center; gap:1.25rem; font-size:0.95rem; }
+.nav-links { display:flex; align-items:baseline; gap:1.25rem; font-size:0.95rem; }
 .nav-links a { color:var(--muted); }
 .nav-links a:hover { color:var(--accent-ink); }
-.nav-item { position:relative; }
+.nav-item { position:static; }
 .nav-dropdown {
-  display:inline-flex;
-  align-items:center;
-  z-index:90;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
 }
 .nav-dropdown > summary {
   display:inline-flex;
@@ -77,29 +75,23 @@ a:hover { color:var(--accent-ink); text-decoration:underline; text-underline-off
   outline-offset:4px;
 }
 .dropdown-menu {
-  position:absolute;
-  z-index:999;
-  top:1.85rem;
-  left:0;
-  min-width:14.25rem;
-  padding:0.42rem;
+  position:static;
+  min-width:0;
+  margin-top:0.35rem;
+  padding-left:0.6rem;
   display:none;
-  background:var(--surface);
-  border:1px solid var(--hairline);
-  border-radius:8px;
-  box-shadow:0 16px 36px rgba(28, 27, 24, 0.12);
+  border-left:1px solid var(--hairline);
 }
 .dropdown-menu a {
   display:block;
-  padding:0.38rem 0.42rem;
-  border-radius:7px;
-  font-size:0.9rem;
+  padding:0.18rem 0;
+  font-size:0.88rem;
   color:var(--muted);
+  white-space:nowrap;
 }
 .dropdown-menu a:hover {
-  background:color-mix(in oklab, var(--accent) 8%, transparent);
   color:var(--accent-ink);
-  text-decoration:none;
+  text-decoration:underline;
 }
 .nav-dropdown[open] .dropdown-menu { display:block; }
 
@@ -221,24 +213,11 @@ strong { font-weight:500; }
     margin-top:0;
   }
   .dropdown-menu {
-    position:static;
-    display:none;
-    min-width:0;
-    margin-top:0.35rem;
-    padding:0.2rem 0;
-    border:none;
-    border-radius:0;
-    box-shadow:none;
-    background:transparent;
+    padding-left:0.5rem;
   }
   .dropdown-menu a {
-    padding:0.22rem 0;
+    padding:0.18rem 0;
     font-size:0.82rem;
-    border-radius:0;
-  }
-  .dropdown-menu a:hover {
-    background:transparent;
-    text-decoration:underline;
   }
   .t-year { flex-basis:6rem; }
 }
