@@ -66,15 +66,21 @@ strong { font-weight:500; }
   display:flex; align-items:baseline; gap:0.5rem; }
 .dot { width:7px; height:7px; border-radius:50%; background:var(--accent); flex:0 0 auto; }
 
-.hero-portrait { margin:0.95rem 0 0; }
+.hero-portrait {
+  --avatar-size: clamp(72px, 14vw, 96px);
+  margin:0.95rem 0 0;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius:50%;
+  overflow:hidden;
+  border:1px solid var(--hairline);
+}
 .hero-portrait img {
   display:block;
-  inline-size:clamp(72px, 14vw, 96px);
-  block-size:clamp(72px, 14vw, 96px);
+  width:100%;
+  height:100%;
   object-fit:cover;
   object-position:52% 38%;
-  border-radius:50%;
-  border:1px solid var(--hairline);
 }
 
 /* research lists */
