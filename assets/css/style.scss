@@ -74,7 +74,7 @@ strong { font-weight:500; }
 .dot { width:7px; height:7px; border-radius:50%; background:var(--accent); flex:0 0 auto; }
 
 .hero-portrait {
-  --avatar-size: clamp(78px, 10vw, 108px);
+  --avatar-size: clamp(156px, 20vw, 216px);
   margin:0.2rem 0 0;
   width: var(--avatar-size);
   height: var(--avatar-size);
