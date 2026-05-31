@@ -1,28 +1,30 @@
 <nav class="site-nav">
-  <a class="brand" href="{{ '/' | relative_url }}">Aidan Lowrie</a>
-  <div class="nav-links">
-    <div class="nav-item nav-group" id="about-nav-group">
-      <a class="top-link" href="{{ '/about/' | relative_url }}">About</a>
-      <button
-        type="button"
-        class="about-toggle"
-        id="about-nav-toggle"
-        aria-expanded="false"
-        aria-controls="about-subnav"
-        aria-label="Toggle About pages"
-      >
-        <span aria-hidden="true">▾</span>
-      </button>
-      <div class="dropdown-menu" id="about-subnav" hidden>
-        <a href="{{ '/about/' | relative_url }}">About overview</a>
-        <a href="{{ '/auc/' | relative_url }}">Amsterdam University College</a>
-        <a href="{{ '/birmingham/' | relative_url }}">University of Birmingham</a>
-        <a href="{{ '/edinburgh/' | relative_url }}">University of Edinburgh</a>
+  <div class="nav-main">
+    <a class="brand" href="{{ '/' | relative_url }}">Aidan Lowrie</a>
+    <div class="nav-links">
+      <div class="nav-item nav-group" id="about-nav-group">
+        <a class="top-link" href="{{ '/about/' | relative_url }}">About</a>
+        <button
+          type="button"
+          class="about-toggle"
+          id="about-nav-toggle"
+          aria-expanded="false"
+          aria-controls="about-subnav"
+          aria-label="Show About pages"
+        >
+          <span aria-hidden="true">▾</span>
+        </button>
       </div>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/writing/' | relative_url }}">Writing</a>
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
     </div>
-    <a href="{{ '/research/' | relative_url }}">Research</a>
-    <a href="{{ '/writing/' | relative_url }}">Writing</a>
-    <a href="{{ '/cv/' | relative_url }}">CV</a>
+  </div>
+  <div class="subnav-row" id="about-subnav" hidden>
+    <a href="{{ '/about/' | relative_url }}">About overview</a>
+    <a href="{{ '/auc/' | relative_url }}">Amsterdam University College</a>
+    <a href="{{ '/birmingham/' | relative_url }}">University of Birmingham</a>
+    <a href="{{ '/edinburgh/' | relative_url }}">University of Edinburgh</a>
   </div>
 </nav>
 <script>
@@ -34,12 +36,14 @@
 
   const closeMenu = () => {
     toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Show About pages");
     panel.hidden = true;
     group.classList.remove("is-open");
   };
 
   const openMenu = () => {
     toggle.setAttribute("aria-expanded", "true");
+    toggle.setAttribute("aria-label", "Hide About pages");
     panel.hidden = false;
     group.classList.add("is-open");
   };
