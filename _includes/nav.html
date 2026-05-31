@@ -13,17 +13,17 @@
         >
           About <span aria-hidden="true" class="caret">▾</span>
         </button>
+        <div class="about-menu" id="about-subnav" hidden>
+          <a href="{{ '/about/' | relative_url }}">About overview</a>
+          <a href="{{ '/auc/' | relative_url }}">Amsterdam University College</a>
+          <a href="{{ '/birmingham/' | relative_url }}">University of Birmingham</a>
+          <a href="{{ '/edinburgh/' | relative_url }}">University of Edinburgh</a>
+        </div>
       </div>
       <a href="{{ '/research/' | relative_url }}">Research</a>
       <a href="{{ '/writing/' | relative_url }}">Writing</a>
       <a href="{{ '/cv/' | relative_url }}">CV</a>
     </div>
-  </div>
-  <div class="subnav-row" id="about-subnav" hidden>
-    <a href="{{ '/about/' | relative_url }}">About overview</a>
-    <a href="{{ '/auc/' | relative_url }}">Amsterdam University College</a>
-    <a href="{{ '/birmingham/' | relative_url }}">University of Birmingham</a>
-    <a href="{{ '/edinburgh/' | relative_url }}">University of Edinburgh</a>
   </div>
 </nav>
 <script>
