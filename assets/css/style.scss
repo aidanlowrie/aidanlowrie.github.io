@@ -69,8 +69,8 @@ strong { font-weight:500; }
 .hero-portrait { margin:0.95rem 0 0; }
 .hero-portrait img {
   display:block;
-  width:clamp(72px, 14vw, 96px);
-  aspect-ratio:1 / 1;
+  inline-size:clamp(72px, 14vw, 96px);
+  block-size:clamp(72px, 14vw, 96px);
   object-fit:cover;
   object-position:52% 38%;
   border-radius:50%;
