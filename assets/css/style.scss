@@ -58,7 +58,14 @@ strong { font-weight:500; }
 .tags { margin:0 0 1.5rem; }
 
 /* home hero */
-.hero { padding:1rem 0 2.5rem; }
+.hero {
+  padding:1rem 0 2.5rem;
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:1.1rem 1.5rem;
+  align-items:start;
+}
+.hero-intro { min-width:0; }
 .hero-name { font-family:var(--serif); font-weight:400; line-height:1.05;
   font-size:clamp(2.6rem,6vw,3.4rem); margin:0 0 1.25rem; letter-spacing:-0.01em; }
 .hero-tagline { font-size:1.25rem; color:var(--muted); max-width:34ch; margin:0 0 1.5rem; }
@@ -67,8 +74,8 @@ strong { font-weight:500; }
 .dot { width:7px; height:7px; border-radius:50%; background:var(--accent); flex:0 0 auto; }
 
 .hero-portrait {
-  --avatar-size: clamp(72px, 14vw, 96px);
-  margin:0.95rem 0 0;
+  --avatar-size: clamp(78px, 10vw, 108px);
+  margin:0.2rem 0 0;
   width: var(--avatar-size);
   height: var(--avatar-size);
   border-radius:50%;
@@ -112,8 +119,18 @@ strong { font-weight:500; }
 .hero .reveal:nth-child(3){animation-delay:0.17s}
 .hero .reveal:nth-child(4){animation-delay:0.23s}
 .hero .reveal:nth-child(5){animation-delay:0.27s}
+.hero-portrait.reveal{animation-delay:0.29s}
 .home-research.reveal{animation-delay:0.33s}
 @keyframes rise { to { opacity:1; transform:none; } }
+@media (max-width:760px) {
+  .hero {
+    grid-template-columns:1fr;
+    gap:0.85rem;
+  }
+  .hero-portrait {
+    margin-top:0;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity:1; transform:none; animation:none; }
 }
