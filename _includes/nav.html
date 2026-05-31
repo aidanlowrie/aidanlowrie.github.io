@@ -3,16 +3,15 @@
     <a class="brand" href="{{ '/' | relative_url }}">Aidan Lowrie</a>
     <div class="nav-links">
       <div class="nav-item nav-group" id="about-nav-group">
-        <a class="top-link" href="{{ '/about/' | relative_url }}">About</a>
         <button
           type="button"
           class="about-toggle"
           id="about-nav-toggle"
           aria-expanded="false"
           aria-controls="about-subnav"
-          aria-label="Show About pages"
+          aria-label="About"
         >
-          <span aria-hidden="true">▾</span>
+          About <span aria-hidden="true" class="caret">▾</span>
         </button>
       </div>
       <a href="{{ '/research/' | relative_url }}">Research</a>
@@ -36,14 +35,12 @@
 
   const closeMenu = () => {
     toggle.setAttribute("aria-expanded", "false");
-    toggle.setAttribute("aria-label", "Show About pages");
     panel.hidden = true;
     group.classList.remove("is-open");
   };
 
   const openMenu = () => {
     toggle.setAttribute("aria-expanded", "true");
-    toggle.setAttribute("aria-label", "Hide About pages");
     panel.hidden = false;
     group.classList.add("is-open");
   };
