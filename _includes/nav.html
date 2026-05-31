@@ -1,7 +1,14 @@
 <nav class="site-nav">
   <a class="brand" href="{{ '/' | relative_url }}">Aidan Lowrie</a>
   <div class="nav-links">
-    <a href="{{ '/about/' | relative_url }}">About</a>
+    <div class="nav-item nav-dropdown">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <div class="dropdown-menu">
+        <a href="{{ '/auc/' | relative_url }}">Amsterdam University College</a>
+        <a href="{{ '/birmingham/' | relative_url }}">University of Birmingham</a>
+        <a href="{{ '/edinburgh/' | relative_url }}">University of Edinburgh</a>
+      </div>
+    </div>
     <a href="{{ '/research/' | relative_url }}">Research</a>
     <a href="{{ '/writing/' | relative_url }}">Writing</a>
     <a href="{{ '/cv/' | relative_url }}">CV</a>

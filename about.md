@@ -32,6 +32,17 @@ seriously.
 
 ## Academic background
 
-- [Amsterdam University College](/auc/)
-- [University of Birmingham](/birmingham/)
-- [University of Edinburgh](/edinburgh/)
+<div class="mini-timeline" role="navigation" aria-label="Academic timeline">
+  <a class="timeline-item" href="/auc/">
+    <span class="t-year">2022</span>
+    <span class="t-school">Amsterdam University College</span>
+  </a>
+  <a class="timeline-item" href="/birmingham/">
+    <span class="t-year">2022–2025</span>
+    <span class="t-school">University of Birmingham</span>
+  </a>
+  <a class="timeline-item" href="/edinburgh/">
+    <span class="t-year">2025–Now</span>
+    <span class="t-school">University of Edinburgh</span>
+  </a>
+</div>

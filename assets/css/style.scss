@@ -41,6 +41,30 @@ a:hover { color:var(--accent-ink); text-decoration:underline; text-underline-off
 .nav-links { display:flex; gap:1.25rem; font-size:0.95rem; }
 .nav-links a { color:var(--muted); }
 .nav-links a:hover { color:var(--accent-ink); }
+.nav-item { position:relative; }
+.nav-dropdown > a::after {
+  content:" ▾";
+  font-size:0.75em;
+  color:var(--faint);
+}
+.dropdown-menu {
+  position:absolute;
+  top:1.5rem;
+  left:0;
+  min-width:15.5rem;
+  padding:0.45rem 0.55rem;
+  display:none;
+  background:var(--surface);
+  border:1px solid var(--hairline);
+}
+.dropdown-menu a {
+  display:block;
+  padding:0.28rem 0.2rem;
+  font-size:0.88rem;
+  color:var(--muted);
+}
+.nav-dropdown:hover .dropdown-menu,
+.nav-dropdown:focus-within .dropdown-menu { display:block; }
 
 /* headings & text */
 h1,h2,h3 { font-family:var(--serif); font-weight:500; color:var(--ink); line-height:1.2; }
@@ -112,6 +136,35 @@ strong { font-weight:500; }
 .footer-links a { color:var(--muted); }
 .colophon { margin:0; }
 
+/* about timeline */
+.mini-timeline {
+  margin-top:0.35rem;
+  border-top:1px solid var(--hairline);
+}
+.timeline-item {
+  display:flex;
+  gap:0.85rem;
+  align-items:baseline;
+  padding:0.75rem 0;
+  border-bottom:1px solid var(--hairline);
+}
+.t-year {
+  flex:0 0 6.8rem;
+  font-family:var(--mono);
+  font-size:0.8rem;
+  color:var(--faint);
+}
+.t-school {
+  font-family:var(--serif);
+  font-size:1.05rem;
+  color:var(--ink);
+}
+.timeline-item:hover .t-school {
+  color:var(--accent-ink);
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
 /* load reveal */
 .reveal { opacity:0; transform:translateY(6px); animation:rise 0.5s ease forwards; }
 .hero .reveal:nth-child(1){animation-delay:0.05s}
@@ -130,6 +183,19 @@ strong { font-weight:500; }
   .hero-portrait {
     margin-top:0;
   }
+  .dropdown-menu {
+    position:static;
+    display:block;
+    margin-top:0.25rem;
+    padding:0.35rem 0;
+    border:none;
+    background:transparent;
+  }
+  .dropdown-menu a {
+    padding:0.15rem 0;
+    font-size:0.82rem;
+  }
+  .t-year { flex-basis:6rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity:1; transform:none; animation:none; }
