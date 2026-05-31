@@ -13,3 +13,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Header pages
+header_pages:
+  - cv.md
+  - contact.md
