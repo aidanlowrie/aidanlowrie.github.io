@@ -1,17 +1,73 @@
 <nav class="site-nav">
   <a class="brand" href="{{ '/' | relative_url }}">Aidan Lowrie</a>
   <div class="nav-links">
-    <details class="nav-item nav-dropdown">
-      <summary>About</summary>
-      <div class="dropdown-menu">
+    <div class="nav-item nav-group" id="about-nav-group">
+      <a class="top-link" href="{{ '/about/' | relative_url }}">About</a>
+      <button
+        type="button"
+        class="about-toggle"
+        id="about-nav-toggle"
+        aria-expanded="false"
+        aria-controls="about-subnav"
+        aria-label="Toggle About pages"
+      >
+        <span aria-hidden="true">▾</span>
+      </button>
+      <div class="dropdown-menu" id="about-subnav" hidden>
         <a href="{{ '/about/' | relative_url }}">About overview</a>
         <a href="{{ '/auc/' | relative_url }}">Amsterdam University College</a>
         <a href="{{ '/birmingham/' | relative_url }}">University of Birmingham</a>
         <a href="{{ '/edinburgh/' | relative_url }}">University of Edinburgh</a>
       </div>
-    </details>
+    </div>
     <a href="{{ '/research/' | relative_url }}">Research</a>
     <a href="{{ '/writing/' | relative_url }}">Writing</a>
     <a href="{{ '/cv/' | relative_url }}">CV</a>
   </div>
 </nav>
+<script>
+(() => {
+  const group = document.getElementById("about-nav-group");
+  const toggle = document.getElementById("about-nav-toggle");
+  const panel = document.getElementById("about-subnav");
+  if (!group || !toggle || !panel) return;
+
+  const closeMenu = () => {
+    toggle.setAttribute("aria-expanded", "false");
+    panel.hidden = true;
+    group.classList.remove("is-open");
+  };
+
+  const openMenu = () => {
+    toggle.setAttribute("aria-expanded", "true");
+    panel.hidden = false;
+    group.classList.add("is-open");
+  };
+
+  toggle.addEventListener("click", () => {
+    const isOpen = toggle.getAttribute("aria-expanded") === "true";
+    if (isOpen) {
+      closeMenu();
+      return;
+    }
+    openMenu();
+  });
+
+  document.addEventListener("click", (event) => {
+    if (toggle.getAttribute("aria-expanded") === "true" && !group.contains(event.target)) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+      closeMenu();
+      toggle.focus();
+    }
+  });
+
+  panel.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", closeMenu);
+  });
+})();
+</script>
