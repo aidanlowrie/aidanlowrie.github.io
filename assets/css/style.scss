@@ -123,8 +123,10 @@ strong { font-weight:500; }
   max-width:31rem;
   margin:0;
   color:var(--banner-muted, var(--muted));
-  font-size:1rem;
-  line-height:1.45;
+  font-family:var(--serif);
+  font-size:1.18rem;
+  font-weight:500;
+  line-height:1.35;
   text-shadow:var(--banner-shadow, none);
 }
 .page-banner--birmingham {
@@ -138,12 +140,12 @@ strong { font-weight:500; }
 }
 .page-banner--auc {
   --banner-ink:#111F25;
-  --banner-muted:#395563;
+  --banner-muted:#152A31;
   justify-content:flex-start;
 }
 .page-banner--auc::before {
   background:
-    linear-gradient(180deg, rgba(232, 241, 238, 0.9) 0%, rgba(232, 241, 238, 0.66) 45%, rgba(232, 241, 238, 0.12) 100%),
+    linear-gradient(180deg, rgba(232, 241, 238, 0.96) 0%, rgba(232, 241, 238, 0.76) 43%, rgba(232, 241, 238, 0.16) 100%),
     radial-gradient(circle at 82% 72%, rgba(25, 119, 126, 0.16), transparent 30%);
 }
 .page-banner--edinburgh {
