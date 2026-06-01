@@ -3,6 +3,10 @@ layout: page
 title: University of Birmingham
 permalink: /birmingham/
 description: Academic focus areas and progression during Aidan Lowrie's Birmingham years.
+banner:
+  theme: birmingham
+  kicker: "2020-2024 · Natural Sciences"
+  summary: "Mechanism, regulation, and data-rich biology."
 ---
 
 My Birmingham years were where I built the technical base that still shapes how

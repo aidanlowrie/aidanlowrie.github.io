@@ -3,6 +3,10 @@ layout: page
 title: University of Edinburgh
 permalink: /edinburgh/
 description: Current MSc focus at the University of Edinburgh.
+banner:
+  theme: edinburgh
+  kicker: "2025-Now · MSc Speech and Language Processing"
+  summary: "Turn-taking, spoken dialogue, and computational cognition."
 ---
 
 My current work at Edinburgh is focused on dialogue timing: when a system should

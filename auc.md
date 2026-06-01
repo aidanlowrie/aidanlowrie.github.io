@@ -3,6 +3,10 @@ layout: page
 title: Amsterdam University College
 permalink: /auc/
 description: Academic focus areas and assessment profile from AUC coursework.
+banner:
+  theme: auc
+  kicker: "2022-2023 · interdisciplinary exchange"
+  summary: "Biological mechanism, behaviour, and ethics in one frame."
 ---
 
 At AUC, my work sat at the boundary between biological mechanism, behaviour, and
