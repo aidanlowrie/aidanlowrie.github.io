@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /404.html
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url={{ '/' | absolute_url }}">
+  <title>redirecting · {{ site.title }}</title>
+  <script>
+    window.location.replace("{{ '/' | absolute_url }}");
+  </script>
+</head>
+<body>
+  <p>redirecting to <a href="{{ '/' | absolute_url }}">{{ site.url }}</a>.</p>
+</body>
+</html>
