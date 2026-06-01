@@ -7,7 +7,7 @@ banner:
   theme: edinburgh
   kicker: "2025-2026 · MSc Speech and Language Processing"
   summary: "Speech, language, and machine learning for conversational systems."
-  image: /assets/img/banner-edinburgh.jpg
+  image: /assets/img/banner-edinburgh-calton.jpg
   position: "52% center"
 ---
 
