@@ -5,18 +5,17 @@ description: >-
 url: "https://aidanlowrie.com"
 author: Aidan Lowrie
 
-# [FILL] all of these:
-email: "you@example.com"
-github: "github-handle"
-linkedin: "linkedin-handle"
-scholar: ""          # Google Scholar profile URL, optional — leave "" to hide
+email: ""
+github: "aidanlowrie"
+linkedin: ""
+scholar: ""
 
 permalink: /writing/:title/
 
 collections:
   projects:
     output: true
-    permalink: /research/:name/
+    permalink: /projects/:name/
 
 defaults:
   - scope: { path: "", type: "projects" }
@@ -31,4 +30,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - WEBSITE_COPY_EDIT.md
   - vendor

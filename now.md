@@ -1,14 +1,18 @@
 ---
 layout: page
 title: Now
-description: What Aidan Lowrie is focused on at the moment.
+description: What I'm focused on right now.
+permalink: /now/
 ---
 
-*Last updated [EDITOR NOTE: month + year].*
+*Updated 1 June 2026.*
 
-- Finishing my MSc dissertation on turn-taking prediction, due August 2026.
-- Closing out coursework in advanced NLP, speech recognition and computer vision.
-- Applying for PhD positions in dialogue and spoken language processing, with a research year first.
-- Building the concept-graph tutor from the [research](/research/) page.
+I'm in the final stretch of my MSc at Edinburgh, graduating in August 2026.
+
+At the moment, I'm writing my dissertation on turn-taking in duplex models. I'm
+looking forward to seeing how it goes.
+
+After graduation I'm looking for ML engineering or research roles — anywhere
+where I can build things and deepen my skills.
 
 This is a [now page](https://nownownow.com/about).

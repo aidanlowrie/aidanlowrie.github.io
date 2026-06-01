@@ -1,18 +1,20 @@
 ---
-title: Decoding speech with weighted finite-state transducers
-slug: wfst-asr-decoding
+layout: project
+title: "WFST-based ASR decoding"
+summary: "Building a speech recognition decoder from weighted finite-state transducers, with beam pruning, silence modelling, and KenLM integration."
+status: "completed · asr coursework · 2025"
 order: 3
-status: MSc coursework · Automatic Speech Recognition
-summary: Composing acoustic, lexicon and language-model knowledge into a single efficient speech decoder.
-tags: [speech recognition, WFST, language modelling]
+tags: [speech recognition, WFSTs, beam search, language modelling]
 ---
 
-Recognising speech means reconciling several sources of evidence at once: what
-the acoustics suggest, what the lexicon permits, what the language model expects.
-The trick is searching the combined space fast enough to be usable.
+For the Automatic Speech Recognition course, I implemented a decoder built on
+weighted finite-state transducers — the classical backbone of ASR systems before
+end-to-end neural approaches took over. The work involved WFST composition and
+optimisation, beam-pruned Viterbi decoding, explicit silence modelling, and
+integration with KenLM for n-gram language model scoring.
 
-I built a decoder around weighted finite-state transducers, with silence
-modelling, beam pruning and a KenLM n-gram language model, then measured how much
-accuracy I gave up as I pruned the search harder.
-
-[EDITOR NOTE: add your WER figures or the main trade-off you found.]
+This was an exercise in understanding the engineering beneath the abstractions.
+Modern ASR systems hide this machinery inside neural architectures, but the
+problems it solves — efficient search over exponentially large hypothesis spaces,
+principled integration of acoustic and language model scores — haven't gone away.
+They've just been reformulated.

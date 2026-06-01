@@ -1,20 +1,24 @@
 ---
-title: A tutor that models what you know
-slug: ai-tutor-knowledge-tracing
+layout: project
+title: "AI tutor with knowledge tracing"
+summary: "An independent project exploring personalised learning — concept graphs, learner state tracking, and the gap between how we learn and how we teach."
+status: "ongoing · independent"
 order: 5
-status: Independent project · In development
-summary: An AI tutoring system that tracks a learner's state across a concept graph, built on ideas from knowledge tracing and learning science.
-tags: [learning science, knowledge tracing, agents]
+tags: [education, knowledge tracing, concept graphs, learning science]
+links: []
 ---
 
-Most tutoring software doesn't model the student at all. It serves up material
-and assumes it landed. I wanted to know what a tutor would look like if it kept
-an explicit, changing estimate of what you actually understand.
+This is a side project that keeps pulling me back. The idea is a personalised AI
+tutor that tracks a learner's understanding across a graph of concepts —
+modelling not just what they've been exposed to, but how well they've integrated
+it with what they already know.
 
-I'm building a system that represents a subject as a graph of concepts and tracks
-mastery across that graph as you work through it, drawing on the knowledge-tracing
-literature and on a habit I already have of keeping my notes as a concept graph.
-[EDITOR NOTE: adjust to what you've actually built so far.]
+It connects to my own experience. I came to maths and computer science late,
+taught myself most of the foundations outside formal courses, and built an
+elaborate personal knowledge management system — an Obsidian vault structured as
+an externalised concept graph — to keep track of it all. The question I keep
+returning to is whether you could systematise that process and make the
+scaffolding adaptive rather than manual.
 
-Still in development. It's also where some of the writing on this site comes
-from.
+This is speculative and unfinished. But it's the project that most clearly
+reflects how I think about learning itself.

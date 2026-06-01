@@ -1,20 +1,20 @@
 ---
-title: Segmenting histopathology images
-slug: histopathology-segmentation
+layout: project
+title: "Histopathology image segmentation"
+summary: "UNet for nucleus segmentation, SimCLR for classification — the point where the biology degree and the ML toolkit meet."
+status: "completed · computer vision coursework · 2026"
 order: 4
-status: MSc coursework · Computer Vision
-summary: "Where the biology meets the vision models: tissue segmentation and self-supervised nucleus classification."
-tags: [computer vision, biology, self-supervised learning]
+tags: [computer vision, UNet, SimCLR, contrastive learning, medical imaging]
 ---
 
-Modern vision models learn good representations with little supervision. The
-question here was whether that helps with reading tissue slides, which is slow
-work that normally needs a trained pathologist.
+This project sits at the intersection of my two degrees. For the Computer Vision
+course, I built a UNet-based segmentation pipeline for identifying nuclei in
+histopathology images, followed by a nucleus classification system using both
+supervised learning and SimCLR-based contrastive learning.
 
-I trained a U-Net to segment histopathology images and used SimCLR-style
-contrastive pretraining to classify nuclei, then compared the self-supervised
-representations against supervised baselines. This is the project where my two
-backgrounds meet most directly.
-
-[EDITOR NOTE: a sentence on segmentation quality and what the contrastive
-pretraining bought you.]
+The biology background mattered here in a way it doesn't for most CV coursework.
+Understanding what the model is looking at — the morphological differences
+between cell types, the staining artefacts, the clinical significance of getting
+segmentation boundaries right — changes how you evaluate results. A Dice score is
+a number; knowing whether the errors are clinically meaningful is domain
+knowledge.

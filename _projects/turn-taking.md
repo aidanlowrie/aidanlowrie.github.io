@@ -1,24 +1,33 @@
 ---
-title: Predicting turn-taking in conversational AI
-slug: turn-taking
+layout: project
+title: "Turn-taking prediction in duplex models"
+summary: "Can sparse autoencoders recover timing-related features for conversational turn-taking — and can we test whether those features causally affect model predictions?"
+status: "in progress · msc dissertation · 2026"
 order: 1
-status: In progress · MSc dissertation
-summary: When should a dialogue system take the floor? Modelling the timing of conversational turns from prosodic and lexical cues.
-tags: [dialogue, prosody, dissertation]
-# links:
-#   - { name: "Code", url: "[FILL or delete]" }
+tags: [dialogue, prosody, mechanistic interpretability, sparse autoencoders]
 ---
 
-Dialogue systems have usually decided when to respond by waiting out a fixed
-silence — say 700 milliseconds — and then assuming the speaker is done. People
-don't do this. We anticipate the end of a turn before it lands, reading prosody,
-syntax and rhythm, which is why conversation between two people runs without
-either long dead air or constant collisions.
+People coordinate turns in conversation through a web of cues — prosody, syntax,
+breath, gaze — that lets them hand the floor back and forth without the awkward
+silences or constant interruptions that make talking to a machine feel wrong.
+Current dialogue systems and duplex models often still need better ways to decide
+when a speaker is about to yield. The question is whether we can do better:
+learn to anticipate turn boundaries from richer internal representations rather
+than relying only on silence.
 
-My dissertation treats this as a prediction task: from the unfolding signal,
-estimate how soon the current speaker will give up the floor. [EDITOR NOTE:
-replace with your actual method — features, model, corpus, and how you evaluate.
-Three or four sentences.]
+My dissertation approaches this as a mechanistic interpretability problem. I'm
+training sparse autoencoders on the hidden representations of a dialogue model
+and looking for features that activate at turn boundaries. Finding a correlation
+is the easy part. The harder question — and the one that would make this
+interesting — is whether those features are *causally* implicated in the model's
+predictions. I'm using activation patching to test this: swapping activations
+from non-turn-boundary contexts into the forward pass and checking whether the
+model's predictions flip.
 
-In progress, supervised by Catherine Lai and Sarenne Wallbridge at the ILCC; due
-August 2026.
+Early results suggest there's something there, but it's early days. The risk is
+that the features I find are proxies for something trivial — pause duration,
+energy drop-off — rather than anything about turn-taking as such. The domain
+knowledge matters here: knowing which findings are surprising and which are
+obvious is what separates a correlation from a contribution.
+
+Supervised by Sarenne Wallbridge and co-supervised by Catherine Lai.

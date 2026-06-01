@@ -1,46 +1,25 @@
 ---
 layout: page
-title: Curriculum vitae
-description: CV of Aidan Lowrie.
+title: CV
+description: Curriculum vitae — Aidan Lowrie.
 ---
 
-<p class="more"><a href="{{ '/assets/cv/aidan-lowrie-cv.pdf' | relative_url }}">Download as PDF →</a></p>
+**Education.** MSc Speech and Language Processing, University of Edinburgh
+(2025–26, expected distinction). BSc Natural Sciences (Biosciences), First Class
+Honours, University of Birmingham (2020–24), including an exchange year at
+Amsterdam University College.
 
-## Education
+**Projects.** Turn-taking prediction in conversational AI (MSc dissertation,
+supervised by Catherine Lai and Sarenne Wallbridge). Coursework spanning
+GRPO-based post-training and reward hacking, WFST-based ASR decoding,
+histopathology segmentation, and contrastive learning for nucleus classification.
 
-**MSc, Speech and Language Processing** — University of Edinburgh, ILCC.
-Expected August 2026.
+**Industry.** Contract data annotation training frontier language models
+(2024–25). Software engineering internship at a startup (iOS/Swift development,
+2023).
 
-**BSc, Natural Sciences (Biology)** — University of Birmingham.
-First Class Honours. [EDITOR NOTE: graduation year.]
+**Skills.** Python, PyTorch, signal processing, NLP, speech processing, computer
+vision, Swift. Foundations in linear algebra, probability, and optimisation.
+Working knowledge of Git, LaTeX, and Unix tooling.
 
-## Experience
-
-**Data annotation and model training (contract)** — [EDITOR NOTE: organisation, dates.]
-Training and evaluating frontier language models. [EDITOR NOTE: one or two lines
-on what you actually did — task types, scale, anything measurable.]
-
-[EDITOR NOTE: add any other relevant roles, internships or teaching here.]
-
-## Selected projects
-
-- **Turn-taking prediction** (MSc dissertation, in progress).
-- **Reward hacking under GRPO** — RL fine-tuning of a reasoning model on GSM8K.
-- **WFST-based ASR decoding** with KenLM language-model integration.
-- **Histopathology segmentation** with U-Net and SimCLR-style pretraining.
-- **Concept-graph tutor** with learner-state tracking (independent).
-
-See [Research](/research/) for detail.
-
-## Technical skills
-
-- **Languages:** Python. [EDITOR NOTE: add others — C/C++? Bash? SQL?]
-- **ML / NLP:** PyTorch; fine-tuning (GRPO, SFT); language modelling; mechanistic interpretability.
-- **Speech:** WFST-based decoding; n-gram LMs (KenLM). [EDITOR NOTE: Kaldi / ESPnet / k2?]
-- **Vision & representation learning:** segmentation (U-Net); contrastive / self-supervised methods (SimCLR).
-
-## Contact
-
-[Email](mailto:{{ site.email }}) ·
-[GitHub](https://github.com/{{ site.github }}) ·
-[LinkedIn](https://www.linkedin.com/in/{{ site.linkedin }})
+See [Projects](/projects/) for project detail.

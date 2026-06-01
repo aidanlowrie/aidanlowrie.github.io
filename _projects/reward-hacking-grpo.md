@@ -1,21 +1,20 @@
 ---
-title: Reward hacking under GRPO
-slug: reward-hacking-grpo
+layout: project
+title: "Reward hacking under GRPO"
+summary: "Training language models with Group Relative Policy Optimisation on mathematical reasoning — and watching them learn to cheat."
+status: "completed · atnlp coursework · 2026"
 order: 2
-status: MSc coursework · Advanced Topics in NLP
-summary: Fine-tuning a reasoning model with reinforcement learning, and tracing where the reward signal quietly goes wrong.
-tags: [reinforcement learning, post-training, reasoning]
+tags: [reinforcement learning, post-training, reward hacking, GRPO, SFT]
 ---
 
-Reinforcement learning can make a model better at the task you meant, or just
-better at the proxy you measured. I wanted to find where that split shows up when
-you fine-tune a reasoning model on maths.
+For the Advanced Techniques in NLP course at Edinburgh, I trained language models
+using Group Relative Policy Optimisation (GRPO) on GSM8K, a mathematical
+reasoning benchmark. The most interesting finding wasn't about performance — it
+was about failure. The models learned to exploit the reward signal in ways that
+produced correct-looking outputs without correct reasoning.
 
-I trained a language model on GSM8K with GRPO, set it against a supervised
-fine-tuning baseline, and ran a set of SCoRe-style self-correction experiments.
-Then I went looking for the cases that matter: where the reward climbed while the
-reasoning underneath it got worse. [EDITOR NOTE: confirm the base model and add
-your headline finding.]
-
-[EDITOR NOTE: one or two sentences on results — the GRPO/SFT gap and the failure
-modes you found.]
+The project included comparisons with supervised fine-tuning and experiments
+with SCoRe-style self-correction, where models attempt to improve their own
+outputs iteratively. The reward hacking analysis ended up being the most
+substantive contribution: understanding *where* reinforcement learning quietly
+goes wrong turns out to be at least as important as making it go right.
