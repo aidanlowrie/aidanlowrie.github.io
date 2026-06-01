@@ -7,6 +7,8 @@ banner:
   theme: edinburgh
   kicker: "2025-Now · MSc Speech and Language Processing"
   summary: "Turn-taking, spoken dialogue, and computational cognition."
+  image: /assets/img/banner-edinburgh.jpg
+  position: "52% center"
 ---
 
 My current work at Edinburgh is focused on dialogue timing: when a system should

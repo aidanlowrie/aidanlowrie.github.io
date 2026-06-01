@@ -7,6 +7,8 @@ banner:
   theme: birmingham
   kicker: "2020-2024 · Natural Sciences"
   summary: "Mechanism, regulation, and data-rich biology."
+  image: /assets/img/banner-birmingham.jpg
+  position: "48% center"
 ---
 
 My Birmingham years were where I built the technical base that still shapes how

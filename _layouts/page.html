@@ -3,7 +3,10 @@ layout: default
 ---
 <article class="page">
   {% if page.banner %}
-    <header class="page-banner page-banner--{{ page.banner.theme | default: 'default' }}">
+    <header class="page-banner page-banner--{{ page.banner.theme | default: 'default' }}" style="--banner-position: {{ page.banner.position | default: 'center center' }};">
+      {% if page.banner.image %}
+        <img class="banner-image" src="{{ page.banner.image | relative_url }}" alt="" aria-hidden="true" loading="eager" decoding="async">
+      {% endif %}
       <p class="banner-kicker">{{ page.banner.kicker }}</p>
       <h1>{{ page.title }}</h1>
       <p class="banner-summary">{{ page.banner.summary }}</p>

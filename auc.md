@@ -7,6 +7,8 @@ banner:
   theme: auc
   kicker: "2022-2023 · interdisciplinary exchange"
   summary: "Biological mechanism, behaviour, and ethics in one frame."
+  image: /assets/img/banner-auc.jpg
+  position: "50% center"
 ---
 
 At AUC, my work sat at the boundary between biological mechanism, behaviour, and
