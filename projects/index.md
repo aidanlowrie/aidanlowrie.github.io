@@ -4,7 +4,7 @@ title: Projects
 description: Projects — Aidan Lowrie.
 ---
 
-Here is a list of projects I carried out at uni / for fun.
+Here are some projects I carried out for uni / fun.
 
 ## Selected projects
 
