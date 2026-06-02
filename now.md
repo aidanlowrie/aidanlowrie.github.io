@@ -14,5 +14,3 @@ looking forward to seeing how it goes.
 
 After graduation I'm looking for ML engineering or research roles — anywhere
 where I can build things and deepen my skills.
-
-This is a [now page](https://nownownow.com/about).
