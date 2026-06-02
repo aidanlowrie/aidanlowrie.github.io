@@ -1,16 +1,17 @@
 ---
 layout: project
 title: "Biological knowledge graph construction"
-summary: "An older NLP project exploring transformer-assisted triple extraction from biological abstracts."
-status: "completed · undergraduate / early NLP · 2023-2024"
+summary: "My undergraduate dissertation: transformer-assisted triple extraction from biological abstracts into knowledge-graph structure."
+status: "undergraduate dissertation · early NLP · 2023-2024"
 order: 12
 tags: [NLP, biology, knowledge graphs, transformers, PubMed]
 ---
 
-This is one of the projects where my biology background and later NLP interests
-overlap most directly. The question was whether transformer models could help
-extract useful subject-relation-object triples from biological abstracts, and
-whether those triples could be turned into a meaningful knowledge graph.
+This was my undergraduate dissertation, and one of the projects where my biology
+background and later NLP interests overlap most directly. The question was
+whether transformer models could help extract useful subject-relation-object
+triples from biological abstracts, and whether those triples could be turned
+into a meaningful knowledge graph.
 
 The work included corpus collection from PubMed abstracts, triplet extraction,
 qualitative graph visualisation, and quantitative evaluation through downstream
