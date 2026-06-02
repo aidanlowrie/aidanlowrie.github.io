@@ -9,7 +9,7 @@ representations of structured data, and what can you discover by interpreting
 what those representations encode? The domains change — speech, text, images,
 genes — but the questions are the same.
 
-## Ambitious / useful / cool
+## Selected projects
 
 <ul class="research-list">
 {% assign projects = site.projects | sort: 'order' %}
