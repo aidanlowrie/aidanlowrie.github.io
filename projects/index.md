@@ -4,10 +4,7 @@ title: Projects
 description: Projects — Aidan Lowrie.
 ---
 
-I think of these projects through a single lens: how do you learn good
-representations of structured data, and what can you discover by interpreting
-what those representations encode? The domains change — speech, text, images,
-genes — but the questions are the same.
+Here is a list of projects I carried out at uni / for fun.
 
 ## Selected projects
 
