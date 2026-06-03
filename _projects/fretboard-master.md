@@ -1,8 +1,12 @@
 ---
 layout: project
 title: "Fretboard Master"
-summary: "A guitar-learning web app for fretboard knowledge, intervals, chord construction, ear training, and blind-mode practice."
+summary: "A guitar practice app for fretboard knowledge, intervals, chord construction, ear training, and blind-mode drills."
 status: "active · music learning app · Jan-Mar 2026"
+stage: "active"
+kind: "music learning app"
+period: "Jan-Mar 2026"
+group: "independent tools"
 order: 6
 tags: [music, guitar, ear training, React, learning tools]
 ---

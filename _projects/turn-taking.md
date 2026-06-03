@@ -1,8 +1,12 @@
 ---
 layout: project
 title: "Turn-taking prediction in duplex models"
-summary: "Can sparse autoencoders recover timing-related features for conversational turn-taking — and can we test whether those features causally affect model predictions?"
+summary: "MSc dissertation work on whether sparse autoencoders can recover timing-related features in duplex speech-model representations."
 status: "in progress · msc dissertation · 2026"
+stage: "in progress"
+kind: "msc dissertation"
+period: "2026"
+group: "current research"
 order: 1
 tags: [dialogue, prosody, mechanistic interpretability, sparse autoencoders]
 ---

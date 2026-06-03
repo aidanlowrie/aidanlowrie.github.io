@@ -1,8 +1,12 @@
 ---
 layout: project
 title: "Pathfinder"
-summary: "A Swift pathfinding and spatial-data-structure experiment, including quadtree work and SVG/floorplan experiments."
-status: "mini-project · Swift experiment · Aug-Sep 2023"
+summary: "Swift pathfinding and spatial-data-structure experiments, including quadtree and floorplan/SVG work."
+status: "early experiment · Swift · Aug-Sep 2023"
+stage: "early experiment"
+kind: "Swift / spatial data"
+period: "Aug-Sep 2023"
+group: "older experiments"
 order: 102
 section: mini
 tags: [Swift, pathfinding, spatial data structures, UI experiments]

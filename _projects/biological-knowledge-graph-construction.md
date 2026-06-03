@@ -1,8 +1,12 @@
 ---
 layout: project
 title: "Biological knowledge graph construction"
-summary: "My undergraduate dissertation: transformer-assisted triple extraction from biological abstracts into knowledge-graph structure."
+summary: "Undergraduate dissertation using transformer-assisted triple extraction on biological abstracts, then turning the output into graph structure."
 status: "undergraduate dissertation · early NLP · 2023-2024"
+stage: "completed"
+kind: "undergraduate dissertation"
+period: "2023-2024"
+group: "coursework and degree work"
 order: 12
 tags: [NLP, biology, knowledge graphs, transformers, PubMed]
 ---

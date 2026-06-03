@@ -4,37 +4,31 @@ title: Projects
 description: Projects — Aidan Lowrie.
 ---
 
-Here are some projects I carried out for uni / fun.
+Here are some projects I carried out for uni / fun. Some are finished course
+projects, some are current research work, and some are older experiments that
+show what I was trying to learn at the time.
 
-## Selected projects
-
-<ul class="research-list">
 {% assign projects = site.projects | sort: 'order' %}
-{% for p in projects %}
-  {% unless p.section == "mini" %}
+
+{% assign groups = "current research|coursework and degree work|independent tools|older experiments" | split: "|" %}
+{% for group in groups %}
+{% assign group_projects = projects | where: "group", group %}
+{% if group_projects.size > 0 %}
+
+## {{ group | capitalize }}
+
+<ul class="research-list research-list--journey">
+{% for p in group_projects %}
   <li>
     <a href="{{ p.url | relative_url }}"><span class="r-title">{{ p.title }}</span></a>
-    <span class="r-meta">{{ p.status }}</span>
+    <span class="r-meta">
+      <span class="r-stage">{{ p.stage }}</span>
+      <span>{{ p.kind }}</span>
+      <span>{{ p.period }}</span>
+    </span>
     <span class="r-desc">{{ p.summary }}</span>
   </li>
-  {% endunless %}
 {% endfor %}
 </ul>
-
-## Mini-projects and experiments
-
-Some projects are smaller: games, visual experiments, weekend tools, or
-half-finished prototypes. They still matter because they show what I was playing
-with at the time.
-
-<ul class="research-list">
-{% for p in projects %}
-  {% if p.section == "mini" %}
-  <li>
-    <a href="{{ p.url | relative_url }}"><span class="r-title">{{ p.title }}</span></a>
-    <span class="r-meta">{{ p.status }}</span>
-    <span class="r-desc">{{ p.summary }}</span>
-  </li>
-  {% endif %}
+{% endif %}
 {% endfor %}
-</ul>

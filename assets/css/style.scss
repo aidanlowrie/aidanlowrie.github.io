@@ -169,6 +169,41 @@ strong { font-weight:500; }
 .r-desc, .r-status, .r-meta { display:block; }
 .r-desc { color:var(--muted); font-size:0.95rem; margin-top:0.15rem; }
 .r-status, .r-meta { margin-top:0.1rem; }
+.research-list--journey {
+  position:relative;
+  margin-top:0.75rem;
+  padding-left:1rem;
+  border-left:1px solid var(--hairline);
+}
+.research-list--journey li {
+  position:relative;
+  padding:0.85rem 0 0.95rem;
+}
+.research-list--journey li::before {
+  content:"";
+  position:absolute;
+  left:calc(-1rem - 4px);
+  top:1.42rem;
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:var(--bg);
+  border:1px solid var(--accent);
+}
+.research-list--journey .r-meta {
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.15rem 0.5rem;
+  align-items:baseline;
+}
+.research-list--journey .r-meta span:not(:last-child)::after {
+  content:"·";
+  margin-left:0.5rem;
+  color:var(--faint);
+}
+.r-stage {
+  color:var(--accent);
+}
 .more a, .back a { font-family:var(--mono); font-size:0.85rem; }
 
 /* project & post bodies */

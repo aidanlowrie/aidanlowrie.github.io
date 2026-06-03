@@ -1,8 +1,12 @@
 ---
 layout: project
 title: "Obsidian and MCP automation infrastructure"
-summary: "A collection of local tools for semantic note search, BetterTouchTool automation, chat integration, and personal knowledge workflows."
+summary: "Local note-search and automation tooling around Obsidian, MCP, BetterTouchTool, and personal knowledge workflows."
 status: "ongoing · personal tooling · 2025-2026"
+stage: "ongoing"
+kind: "personal infrastructure"
+period: "2025-2026"
+group: "independent tools"
 order: 11
 tags: [Obsidian, MCP, automation, semantic search, local tools]
 ---

@@ -1,8 +1,12 @@
 ---
 layout: project
 title: "WFST-based ASR decoding"
-summary: "Building a speech recognition decoder from weighted finite-state transducers, with beam pruning, silence modelling, and KenLM integration."
+summary: "ASR coursework implementing a WFST decoder with beam pruning, silence modelling, and KenLM language-model scoring."
 status: "completed · asr coursework · 2025"
+stage: "completed"
+kind: "asr coursework"
+period: "2025"
+group: "coursework and degree work"
 order: 3
 tags: [speech recognition, WFSTs, beam search, language modelling]
 ---

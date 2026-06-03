@@ -1,8 +1,12 @@
 ---
 layout: project
 title: "Reward hacking under GRPO"
-summary: "Training language models with Group Relative Policy Optimisation on mathematical reasoning — and watching them learn to cheat."
+summary: "ATNLP coursework on GRPO for mathematical reasoning, focused on failure cases where the reward signal encourages shallow shortcuts."
 status: "completed · atnlp coursework · 2026"
+stage: "completed"
+kind: "atnlp coursework"
+period: "2026"
+group: "coursework and degree work"
 order: 2
 tags: [reinforcement learning, post-training, reward hacking, GRPO, SFT]
 ---

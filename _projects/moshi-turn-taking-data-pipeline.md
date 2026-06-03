@@ -1,8 +1,12 @@
 ---
 layout: project
 title: "Moshi turn-taking data pipeline"
-summary: "A data collection and labelling pipeline for full-duplex speech models: discovery, download, diarisation, transcription, Mimi encoding, and turn-yield labels."
+summary: "Supporting data pipeline for conversational audio: discovery, diarisation, transcription, Mimi encoding, and turn-yield labels."
 status: "prototype · speech research · May 2026"
+stage: "working prototype"
+kind: "speech data tooling"
+period: "May 2026"
+group: "current research"
 order: 9
 tags: [speech, dialogue, turn-taking, diarisation, full-duplex models]
 ---

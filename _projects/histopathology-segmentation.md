@@ -1,8 +1,12 @@
 ---
 layout: project
 title: "Histopathology image segmentation"
-summary: "UNet for nucleus segmentation, SimCLR for classification — the point where the biology degree and the ML toolkit meet."
+summary: "Computer vision coursework: UNet nucleus segmentation, then supervised and SimCLR-based classification."
 status: "completed · computer vision coursework · 2026"
+stage: "completed"
+kind: "computer vision coursework"
+period: "2026"
+group: "coursework and degree work"
 order: 4
 tags: [computer vision, UNet, SimCLR, contrastive learning, medical imaging]
 ---

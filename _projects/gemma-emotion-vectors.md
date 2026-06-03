@@ -1,21 +1,24 @@
 ---
 layout: project
 title: "Emotion vectors for Gemma"
-summary: "An interpretability pipeline for extracting emotion steering vectors from Gemma 4 26B activations."
-status: "research prototype · interpretability · Apr 2026"
+summary: "Exploratory interpretability pipeline for extracting emotion-related activation directions from Gemma activations."
+status: "exploratory prototype · interpretability · Apr 2026"
+stage: "exploratory prototype"
+kind: "interpretability"
+period: "Apr 2026"
+group: "independent tools"
 order: 10
 tags: [interpretability, steering vectors, Gemma, representation learning]
 ---
 
-This project was a direct attempt to make mechanistic interpretability feel less
-abstract. The premise is simple: if a model has internal directions associated
-with emotional concepts, can we extract them cleanly enough to steer generation
-or study what those directions encode?
+This project was an exploratory attempt to make mechanistic interpretability
+less abstract. The premise was simple: if a model has internal directions
+associated with emotional concepts, can we extract candidates cleanly enough to
+inspect or test them?
 
-The pipeline loads a large open-weight model, processes an emotion-story
-dataset, extracts residual-stream activations, removes confounds with PCA, and
-saves per-layer steering vectors. It is the kind of project where the plumbing
-matters: dataset handling, memory pressure, batching, logging, and resumability
-are what make the conceptual experiment possible.
+The pipeline loads an open-weight model, processes an emotion-story dataset,
+extracts residual-stream activations, removes confounds with PCA, and saves
+per-layer candidate directions. The useful part was mostly the plumbing:
+dataset handling, memory pressure, batching, logging, and resumability.
 
 The local timestamp scan dates the source in `Pi/` to April 2026.
