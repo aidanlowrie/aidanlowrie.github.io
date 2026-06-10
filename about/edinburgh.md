@@ -9,6 +9,7 @@ banner:
   summary: ""
   image: /assets/img/banner-edinburgh-calton.jpg
   position: "52% center"
+  style: "border: none;"
 ---
 
 <p class="eyebrow">msc speech & language processing · university of edinburgh · 2025–2026</p>
