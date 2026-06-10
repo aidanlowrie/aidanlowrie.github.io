@@ -38,11 +38,4 @@ using activation patching to test whether intervening on candidate features can
 change turn-boundary predictions, rather than treating the features as
 correlational explanations only.
 
-## What comes next
-
-After the MSc, I am looking for ML engineering or research engineering roles
-where I can work close to product and continue building practical engineering
-skill. Longer term, I am interested in PhD work on spoken interaction,
-representation learning, or mechanistic interpretability.
-
 [← Amsterdam](/about/amsterdam/) · [Home](/)
