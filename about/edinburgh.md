@@ -38,4 +38,6 @@ using activation patching to test whether intervening on candidate features can
 change turn-boundary predictions, rather than treating the features as
 correlational explanations only.
 
-[← Amsterdam](/about/amsterdam/) · [Home](/)
+<p class="city-nav">
+<a href="/about/amsterdam/">← Amsterdam</a> <span>·</span> <a href="/">Home</a>
+</p>

@@ -33,4 +33,6 @@ learning across domains: how similar mathematical tools can be used for text,
 speech, images, and biological data, provided the structure is rich enough to
 learn from.
 
-[← Birmingham](/about/birmingham/) · [Edinburgh →](/about/edinburgh/)
+<p class="city-nav">
+<a href="/about/birmingham/">← Birmingham</a> <span>·</span> <a href="/about/edinburgh/">Edinburgh →</a>
+</p>

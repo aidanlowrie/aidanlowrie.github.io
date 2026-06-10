@@ -206,6 +206,10 @@ strong { font-weight:500; }
 }
 .more a, .back a { font-family:var(--mono); font-size:0.85rem; }
 
+/* City navigation */
+.city-nav { font-size:0.85rem; margin-top:3rem; margin-bottom:0; }
+.city-nav span { color:var(--muted); }
+
 /* project & post bodies */
 .proj-links { font-family:var(--mono); font-size:0.85rem; margin:-0.5rem 0 1.5rem; }
 .back { margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--hairline); }

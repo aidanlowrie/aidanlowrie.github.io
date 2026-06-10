@@ -30,4 +30,6 @@ three-month software engineering internship at a startup, working in iOS
 development with Swift. I gained experience writing production code in a
 professional engineering environment, which helped me to think like an engineer.
 
-[← Home](/) · [Amsterdam →](/about/amsterdam/)
+<p class="city-nav">
+<a href="/">← Home</a> <span>·</span> <a href="/about/amsterdam/">Amsterdam →</a>
+</p>
