@@ -139,15 +139,14 @@ strong { font-weight:500; }
 .hero-intro { min-width:0; }
 .hero-name { font-family:var(--serif); font-weight:400; line-height:1.05;
   font-size:clamp(2.6rem,6vw,3.4rem); margin:0 0 1.25rem; letter-spacing:-0.01em; }
-.hero-tagline { font-size:1.25rem; color:var(--muted); max-width:34ch; margin:0 0 1.5rem; }
+.hero-tagline { font-size:1.25rem; line-height:1.5; color:var(--muted); max-width:38ch; margin:0 0 1.5rem; }
 .status { font-family:var(--mono); font-size:0.85rem; color:var(--faint); display:block; }
 .dot { display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--accent); margin-right:0.5rem; vertical-align:baseline; }
 
 .hero-portrait {
-  --avatar-size: clamp(144px, 18vw, 196px);
   margin:0.2rem 0 0;
-  width: var(--avatar-size);
-  height: var(--avatar-size);
+  width: 170px;
+  height: 170px;
   border-radius:50%;
   overflow:hidden;
   border:1px solid var(--hairline);
