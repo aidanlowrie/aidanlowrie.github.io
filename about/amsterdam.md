@@ -8,7 +8,7 @@ banner:
   kicker: ""
   summary: ""
   image: /assets/img/banner-amsterdam-9477.jpg
-  position: "50% 40%"
+  position: "50% 75%"
 ---
 
 <p class="eyebrow">exchange year · amsterdam university college · 2022–2023</p>
