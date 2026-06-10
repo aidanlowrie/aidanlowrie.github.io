@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Birmingham
-description: Undergraduate years — biology, bioinformatics, and software engineering.
+description: Undergraduate years
 permalink: /about/birmingham/
 banner:
   theme: birmingham
   kicker: "2020-2024 · Natural Sciences"
-  summary: "Biology, bioinformatics, and software engineering."
+  summary: ""
   image: /assets/img/banner-birmingham.jpg
   position: "48% center"
 ---

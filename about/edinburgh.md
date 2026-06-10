@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Edinburgh
-description: MSc Speech and Language Processing — and what comes next.
+description: MSc Speech and Language Processing
 permalink: /about/edinburgh/
 banner:
   theme: edinburgh
   kicker: "2025-2026 · MSc Speech and Language Processing"
-  summary: "Speech, language, and machine learning for conversational systems."
+  summary: ""
   image: /assets/img/banner-edinburgh-calton.jpg
   position: "52% center"
 ---

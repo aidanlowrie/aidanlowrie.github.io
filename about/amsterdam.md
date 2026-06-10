@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Amsterdam
-description: Exchange year at AUC — the pivot to NLP.
+description: Exchange year at AUC
 permalink: /about/amsterdam/
 banner:
   theme: auc
   kicker: "2022-2023 · interdisciplinary exchange"
-  summary: "The point where NLP and machine learning became the direction."
+  summary: ""
   image: /assets/img/banner-auc-bike-cat.jpg
   position: "50% center"
 ---
