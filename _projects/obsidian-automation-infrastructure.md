@@ -6,7 +6,7 @@ status: "ongoing · personal tooling · 2025-2026"
 stage: "ongoing"
 kind: "personal infrastructure"
 period: "2025-2026"
-group: "independent tools"
+group: "other projects / experiments"
 order: 11
 tags: [Obsidian, MCP, automation, semantic search, local tools]
 ---

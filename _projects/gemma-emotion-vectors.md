@@ -6,7 +6,7 @@ status: "exploratory prototype · interpretability · Apr 2026"
 stage: "exploratory prototype"
 kind: "interpretability"
 period: "Apr 2026"
-group: "independent tools"
+group: "other projects / experiments"
 order: 10
 tags: [interpretability, steering vectors, Gemma, representation learning]
 ---

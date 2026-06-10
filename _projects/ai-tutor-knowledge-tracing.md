@@ -6,7 +6,7 @@ status: "prototype · independent learning tool"
 stage: "prototype"
 kind: "learning tool"
 period: "2025-2026"
-group: "independent tools"
+group: "other projects / experiments"
 order: 5
 tags: [education, knowledge tracing, concept graphs, learning science]
 links: []

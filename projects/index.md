@@ -4,13 +4,11 @@ title: Projects
 description: Projects — Aidan Lowrie.
 ---
 
-Here are some projects I carried out for uni / fun. Some are finished course
-projects, some are current research work, and some are older experiments that
-show what I was trying to learn at the time.
+Here are some projects I carried out for uni / fun.
 
 {% assign projects = site.projects | sort: 'order' %}
 
-{% assign groups = "current research|coursework and degree work|independent tools|older experiments" | split: "|" %}
+{% assign groups = "current research|coursework and degree work|other projects / experiments" | split: "|" %}
 {% for group in groups %}
 {% assign group_projects = projects | where: "group", group %}
 {% if group_projects.size > 0 %}

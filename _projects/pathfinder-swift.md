@@ -6,7 +6,7 @@ status: "early experiment · Swift · Aug-Sep 2023"
 stage: "early experiment"
 kind: "Swift / spatial data"
 period: "Aug-Sep 2023"
-group: "older experiments"
+group: "other projects / experiments"
 order: 102
 section: mini
 tags: [Swift, pathfinding, spatial data structures, UI experiments]

@@ -6,7 +6,7 @@ status: "rough utility · speech tooling · Dec 2024-Sep 2025"
 stage: "rough utility"
 kind: "speech tooling"
 period: "Dec 2024-Sep 2025"
-group: "older experiments"
+group: "other projects / experiments"
 order: 106
 section: mini
 tags: [speech, diarisation, transcription, fact checking]

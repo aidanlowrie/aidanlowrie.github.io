@@ -6,7 +6,7 @@ status: "early project, revisited · game AI · 2020 / 2026"
 stage: "early project, revisited"
 kind: "game AI"
 period: "2020 / 2026"
-group: "older experiments"
+group: "other projects / experiments"
 order: 101
 section: mini
 tags: [reinforcement learning, games, CNNs, PyTorch]
