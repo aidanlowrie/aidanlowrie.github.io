@@ -2,13 +2,35 @@
 layout: home
 title: ""
 ---
-<section class="home-about reveal" style="padding-top: 0; border-top: none;">
-  <p><img src="{{ '/assets/img/portrait-arthurs-seat.jpg' | relative_url }}" alt="Portrait of Aidan Lowrie" width="150" height="150" style="float: right; margin: 0 0 1rem 1rem; border-radius: 50%; border: 1px solid var(--hairline);">I'm in the final stretch of an MSc in Speech and Language Processing at the University of Edinburgh. This year I've studied machine learning, focusing on its applications across language, speech and vision.</p>
-  <p>I'm currently finishing my dissertation, exploring internal turn-taking representations in duplex models.</p>
-  <p>My background is in machine learning and bioinformatics.</p>
-  <p>The pages below give a short academic timeline across three cities.</p>
-  <p class="city-nav">
-    <a href="{{ '/about/birmingham/' | relative_url }}">Birmingham</a> <span>→</span> <a href="{{ '/about/amsterdam/' | relative_url }}">Amsterdam</a> <span>→</span> <a href="{{ '/about/edinburgh/' | relative_url }}">Edinburgh</a>
-  </p>
+<div class="hero">
+  <div class="hero-intro">
+    <h1 class="hero-name">Aidan Lowrie</h1>
+    <p class="hero-tagline">I'm in the final stretch of an MSc in Speech and Language Processing at the University of Edinburgh. This year I've studied machine learning, focusing on its applications across language, speech and vision.</p>
+    <span class="status"><span class="dot"></span>Currently finishing my dissertation on turn-taking in duplex models</span>
+  </div>
+  <div class="hero-portrait">
+    <img src="{{ '/assets/img/portrait-arthurs-seat.jpg' | relative_url }}" alt="Portrait of Aidan Lowrie">
+  </div>
+</div>
+
+<section class="home-about">
+  <h2>About</h2>
+  <p>My background is in machine learning and bioinformatics, with a focus on representation learning across domains.</p>
+  <p>The links below trace my academic journey across three cities:</p>
+  
+  <div class="mini-timeline">
+    <a href="{{ '/about/birmingham/' | relative_url }}" class="timeline-item">
+      <span class="t-year">2019—2022</span>
+      <span class="t-school">Birmingham → Machine learning foundations</span>
+    </a>
+    <a href="{{ '/about/amsterdam/' | relative_url }}" class="timeline-item">
+      <span class="t-year">2022—2023</span>
+      <span class="t-school">Amsterdam → NLP and text mining</span>
+    </a>
+    <a href="{{ '/about/edinburgh/' | relative_url }}" class="timeline-item">
+      <span class="t-year">2023—2024</span>
+      <span class="t-school">Edinburgh → Speech and language processing</span>
+    </a>
+  </div>
 </section>
  
