@@ -53,6 +53,7 @@ a:hover { color:var(--accent-ink); text-decoration:underline; text-underline-off
 h1,h2,h3 { font-family:var(--serif); font-weight:500; color:var(--ink); line-height:1.2; }
 .page-title { font-size:2rem; margin:0 0 1.25rem; }
 h2 { font-size:1.35rem; margin:2.25rem 0 0.75rem; }
+.home-about h2 { margin:0 0 0.75rem; }
 h3 { font-family:var(--sans); font-size:1.05rem; font-weight:500; margin:1.5rem 0 0.5rem; }
 p { margin:0 0 1.1rem; }
 article p { overflow-wrap:break-word; }
@@ -160,8 +161,7 @@ strong { font-weight:500; }
 }
 
 /* project lists */
-.home-about { padding-top:2.5rem; border-top:1px solid var(--hairline); }
-.home-timeline { padding-top:2rem; }
+.home-about { padding-top:2rem; border-top:1px solid var(--hairline); }
 .research-list, .post-list { list-style:none; padding:0; margin:0.5rem 0 1.5rem; }
 .research-list li, .post-list li { padding:0.9rem 0; border-bottom:1px solid var(--hairline); }
 .research-list li:first-child { border-top:1px solid var(--hairline); }
