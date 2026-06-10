@@ -39,5 +39,5 @@ change turn-boundary predictions, rather than treating the features as
 correlational explanations only.
 
 <p class="city-nav">
-<a href="/about/amsterdam/">← Amsterdam</a> <span>·</span> <a href="/">Home</a>
+<span>←</span> <a href="/about/amsterdam/">Amsterdam</a> <span>·</span> <a href="/">Home</a>
 </p>

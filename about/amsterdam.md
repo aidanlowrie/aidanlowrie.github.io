@@ -34,5 +34,5 @@ speech, images, and biological data, provided the structure is rich enough to
 learn from.
 
 <p class="city-nav">
-<a href="/about/birmingham/">← Birmingham</a> <span>·</span> <a href="/about/edinburgh/">Edinburgh →</a>
+<span>←</span> <a href="/about/birmingham/">Birmingham</a> <span>·</span> <a href="/about/edinburgh/">Edinburgh</a> <span>→</span>
 </p>

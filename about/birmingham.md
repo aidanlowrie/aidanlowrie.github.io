@@ -31,5 +31,5 @@ development with Swift. I gained experience writing production code in a
 professional engineering environment, which helped me to think like an engineer.
 
 <p class="city-nav">
-<a href="/">← Home</a> <span>·</span> <a href="/about/amsterdam/">Amsterdam →</a>
+<span>←</span> <a href="/">Home</a> <span>·</span> <a href="/about/amsterdam/">Amsterdam</a> <span>→</span>
 </p>
