@@ -251,7 +251,7 @@ strong { font-weight:500; }
 
 /* load reveal */
 .reveal { opacity:1; transform:none; }
-@media (max-width:200px) {
+@media (max-width:700px) {
   .site-nav {
     padding-bottom:1.5rem;
     margin-bottom:2rem;
@@ -271,13 +271,21 @@ strong { font-weight:500; }
   }
   .hero {
     grid-template-columns:1fr;
-    gap:0.85rem;
+    gap:1.5rem;
+  }
+  .hero-intro {
+    max-width:100%;
+  }
+  .hero-tagline {
+    text-align:left;
+    max-width:100%;
   }
   .page p, .project p, .post p {
-    max-width:18rem;
+    max-width:100%;
   }
   .hero-portrait {
-    margin-top:0;
+    margin:0 auto;
+    order:-1;
   }
   .page-banner {
     margin-bottom:1.6rem;
