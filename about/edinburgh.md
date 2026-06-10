@@ -5,7 +5,7 @@ description: MSc Speech and Language Processing
 permalink: /about/edinburgh/
 banner:
   theme: edinburgh
-  kicker: "2025-2026 · MSc Speech and Language Processing"
+  kicker: ""
   summary: ""
   image: /assets/img/banner-edinburgh-calton.jpg
   position: "52% center"

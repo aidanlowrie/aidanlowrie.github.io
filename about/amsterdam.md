@@ -5,7 +5,7 @@ description: Exchange year at AUC
 permalink: /about/amsterdam/
 banner:
   theme: auc
-  kicker: "2022-2023 · interdisciplinary exchange"
+  kicker: ""
   summary: ""
   image: /assets/img/banner-auc-bike-cat.jpg
   position: "50% center"

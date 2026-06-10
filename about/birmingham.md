@@ -5,7 +5,7 @@ description: Undergraduate years
 permalink: /about/birmingham/
 banner:
   theme: birmingham
-  kicker: "2020-2024 · Natural Sciences"
+  kicker: ""
   summary: ""
   image: /assets/img/banner-birmingham.jpg
   position: "48% center"
