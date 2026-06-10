@@ -7,7 +7,7 @@ banner:
   theme: auc
   kicker: ""
   summary: ""
-  image: /assets/img/banner-auc-bike-cat.jpg
+  image: /assets/img/banner-amsterdam-9477.jpg
   position: "50% center"
 ---
 
