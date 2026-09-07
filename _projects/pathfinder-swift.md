@@ -10,13 +10,10 @@ group: "other projects / experiments"
 order: 102
 section: mini
 tags: [Swift, pathfinding, spatial data structures, UI experiments]
+published: false
 ---
 
-This was an early Swift experiment around pathfinding, floorplans, and spatial
-data structures. The local project contains several related attempts:
-`Pathfinder`, `Pathfinder3`, `SVGExperiment`, and `PathFinderX`.
-
-The most interesting evidence is the quadtree work in the model layer. It is the
-kind of small project that marks a period of learning by building: take a visual
-problem, make it interactive, and then discover which data structures become
-necessary once the naive version starts to creak.
+This early Swift experiment explored pathfinding over floorplans and the spatial
+data structures needed to support interactive routing. It includes A* search,
+quadtree indexing and SVG-based interface experiments. It is retained privately
+as supporting work from the period around my iOS internship.

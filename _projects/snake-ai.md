@@ -10,13 +10,10 @@ group: "other projects / experiments"
 order: 101
 section: mini
 tags: [reinforcement learning, games, CNNs, PyTorch]
+published: false
 ---
 
-Snake is a useful toy problem because it is small enough to understand and just
-annoying enough to expose whether an agent is actually learning. I have multiple
-Snake folders: an older deep Q-learning project and a newer 2026 version with
-CNN checkpoints, evaluation runs, and model-visualisation tooling.
-
-This is included as a learning trail, not because Snake itself is impressive.
-It shows an early interest in reinforcement learning, state representation, and
-reward shaping, then a later return to the same toy problem with better tooling.
+This experiment used Snake as a compact environment for exploring reinforcement
+learning, state representation and reward shaping. A later revision added more
+systematic checkpoints, evaluation runs and model visualisation. It remains a
+learning project and is not included in the public portfolio.

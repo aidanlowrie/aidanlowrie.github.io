@@ -5,12 +5,14 @@ description: What I'm focused on right now.
 permalink: /now/
 ---
 
-*Updated 1 June 2026.*
+*Updated 7 September 2026.*
 
-I'm in the final stretch of my MSc at Edinburgh, graduating in August 2026.
+I recently completed an MSc in Speech and Language Processing at the University
+of Edinburgh, with a 75% taught-course average.
 
-At the moment, I'm writing my dissertation on turn-taking in duplex models. I'm
-looking forward to seeing how it goes.
+My dissertation investigated whether auxiliary supervision could improve the
+conversational coordination of full-duplex dialogue models. The work combined
+model adaptation, large-scale paired evaluation and a listening study.
 
-After graduation I'm looking for ML engineering or research roles — anywhere
-where I can build things and deepen my skills.
+I am now looking for machine-learning engineering, applied-AI and research
+engineering roles, while preparing selected recent work for public release.

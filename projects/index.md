@@ -4,11 +4,12 @@ title: Projects
 description: Projects — Aidan Lowrie.
 ---
 
-Here are some projects I carried out for uni / fun.
+Selected research, coursework and engineering projects. Prototype status is
+shown explicitly where work is still exploratory.
 
 {% assign projects = site.projects | sort: 'order' %}
 
-{% assign groups = "current research|coursework and degree work|other projects / experiments" | split: "|" %}
+{% assign groups = "research and engineering|coursework and degree work" | split: "|" %}
 {% for group in groups %}
 {% assign group_projects = projects | where: "group", group %}
 {% if group_projects.size > 0 %}

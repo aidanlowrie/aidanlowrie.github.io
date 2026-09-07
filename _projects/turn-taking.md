@@ -1,37 +1,28 @@
 ---
 layout: project
-title: "Turn-taking prediction in duplex models"
-summary: "MSc dissertation work on whether sparse autoencoders can recover timing-related features in duplex speech-model representations."
-status: "in progress · msc dissertation · 2026"
-stage: "in progress"
-kind: "msc dissertation"
+title: "Auxiliary adaptation of full-duplex dialogue models"
+summary: "MSc dissertation on adapting and evaluating full-duplex models for conversational coordination."
+status: "completed · MSc dissertation · 2026"
+stage: "completed"
+kind: "MSc dissertation"
 period: "2026"
-group: "current research"
+group: "research and engineering"
 order: 1
-tags: [dialogue, prosody, mechanistic interpretability, sparse autoencoders]
+tags: [dialogue, model adaptation, evaluation, human study, research engineering]
 ---
 
-People coordinate turns in conversation through a web of cues — prosody, syntax,
-breath, gaze — that lets them hand the floor back and forth without the awkward
-silences or constant interruptions that make talking to a machine feel wrong.
-Current dialogue systems and duplex models often still need better ways to decide
-when a speaker is about to yield. The question is whether we can do better:
-learn to anticipate turn boundaries from richer internal representations rather
-than relying only on silence.
+My MSc dissertation investigated whether auxiliary supervision could improve
+the conversational coordination of full-duplex dialogue models. I adapted
+PersonaPlex with dialogue-act and future-activity objectives and built the data,
+training and evaluation pipelines needed to compare model conditions
+reproducibly.
 
-My dissertation approaches this as a mechanistic interpretability problem. I'm
-training sparse autoencoders on the hidden representations of a dialogue model
-and looking for features that activate at turn boundaries. Finding a correlation
-is the easy part. The harder question — and the one that would make this
-interesting — is whether those features are *causally* implicated in the model's
-predictions. I'm using activation patching to test this: swapping activations
-from non-turn-boundary contexts into the forward pass and checking whether the
-model's predictions flip.
+The evaluation covered more than 1,000 paired model conversations and a
+21-participant listening study. DualTurn supervision improved pause handling
+but also increased silence, while automatic timing measures did not consistently
+track listener preference. The project therefore highlighted the importance of
+testing conversational systems with both behavioural metrics and human
+judgement.
 
-Early results suggest there's something there, but it's early days. The risk is
-that the features I find are proxies for something trivial — pause duration,
-energy drop-off — rather than anything about turn-taking as such. The domain
-knowledge matters here: knowing which findings are surprising and which are
-obvious is what separates a correlation from a contribution.
-
-Supervised by Sarenne Wallbridge and co-supervised by Catherine Lai.
+Supervised by Catherine Lai and Sarenne Wallbridge at the University of
+Edinburgh.

@@ -10,6 +10,7 @@ group: "other projects / experiments"
 order: 106
 section: mini
 tags: [speech, diarisation, transcription, fact checking]
+published: false
 ---
 
 This project started as practical speech tooling: download or ingest audio,
@@ -17,6 +18,6 @@ diarise speakers, transcribe the content, and turn the result into something
 easier to inspect. Later pieces added a simple claim verifier and bulk
 verification workflow.
 
-It is messier than the course and dissertation work, and I would not present it
-as a polished system. It sits between my speech-processing interests and the
-broader question of how to turn long, messy media into structured evidence.
+The project explored how long, unstructured recordings could be converted into
+speaker-attributed evidence. It remains unpublished because the verification
+component has not yet been evaluated rigorously.

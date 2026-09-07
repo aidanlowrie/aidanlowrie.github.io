@@ -9,6 +9,7 @@ period: "Apr 2026"
 group: "other projects / experiments"
 order: 10
 tags: [interpretability, steering vectors, Gemma, representation learning]
+published: false
 ---
 
 This project was an exploratory attempt to make mechanistic interpretability
@@ -21,4 +22,5 @@ extracts residual-stream activations, removes confounds with PCA, and saves
 per-layer candidate directions. The useful part was mostly the plumbing:
 dataset handling, memory pressure, batching, logging, and resumability.
 
-The local timestamp scan dates the source in `Pi/` to April 2026.
+The work remains exploratory and has not yet been evaluated well enough for a
+public technical claim, so it is currently unpublished.

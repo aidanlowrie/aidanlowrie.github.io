@@ -1,6 +1,9 @@
-# aidanlowrie.com
+# Aidan Lowrie — project portfolio
 
-Personal site. Jekyll, served via GitHub Pages on a custom domain.
+Source for my GitHub Pages portfolio, covering selected machine-learning and AI
+research and engineering work.
+
+Personal portfolio built with Jekyll and served through GitHub Pages.
 
 ## Local development
     bundle install

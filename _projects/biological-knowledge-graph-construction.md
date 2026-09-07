@@ -1,27 +1,23 @@
 ---
 layout: project
-title: "Biological knowledge graph construction"
-summary: "Undergraduate dissertation using transformer-assisted triple extraction on biological abstracts, then turning the output into graph structure."
-status: "undergraduate dissertation · early NLP · 2023-2024"
+title: "Biological knowledge-graph construction"
+summary: "Amsterdam University College research project using transformer-assisted relation extraction on PubMed abstracts."
+status: "completed · group research project · 2023"
 stage: "completed"
-kind: "undergraduate dissertation"
-period: "2023-2024"
+kind: "group research project"
+period: "2023"
 group: "coursework and degree work"
 order: 12
 tags: [NLP, biology, knowledge graphs, transformers, PubMed]
 ---
 
-This was my undergraduate dissertation, and one of the projects where my biology
-background and later NLP interests overlap most directly. The question was
-whether transformer models could help extract useful subject-relation-object
-triples from biological abstracts, and whether those triples could be turned
-into a meaningful knowledge graph.
+This group research project investigated whether transformer-based relationship
+extraction could turn a large corpus of PubMed abstracts into useful biological
+knowledge graphs. We retrieved and processed approximately 15,000 abstracts,
+extracted subject–relation–object triples, filtered and normalised biological
+entities and assembled the resulting relationships as graphs.
 
-The work included corpus collection from PubMed abstracts, triplet extraction,
-qualitative graph visualisation, and quantitative evaluation through downstream
-predictive models. It is rougher than my more recent projects, but it captures a
-transition point: using NLP tools on scientific text before I had fully moved
-into speech and language processing.
-
-The local timestamp scan places the project material from June 2023, with later
-file activity in August 2024, under `Python/text-mining-project-main/`.
+The work combined Biopython and Entrez for corpus collection, transformer-based
+relationship and keyword extraction, biomedical language processing, NetworkX
+visualisation and graph-embedding evaluation. It was completed with Boray Kasap
+and Eliott Mattei during my exchange year at Amsterdam University College.
