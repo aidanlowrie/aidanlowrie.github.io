@@ -1,0 +1,664 @@
+{
+  "animal-cell": {
+    "crop": [
+      0,
+      0,
+      552.537,
+      404
+    ],
+    "old": [
+      0,
+      45,
+      475,
+      340
+    ],
+    "credit": "Mariana Ruiz (LadyofHats); unlabelled derivative by HoverFly. Public domain.",
+    "file": "Animal_cell_structure_no_text.svg",
+    "parts": [
+      [
+        "Nucleus",
+        502,
+        223,
+        [
+          "cell nucleus"
+        ]
+      ],
+      [
+        "Nucleolus",
+        480,
+        249,
+        []
+      ],
+      [
+        "Rough endoplasmic reticulum",
+        410,
+        275,
+        [
+          "rough ER"
+        ]
+      ],
+      [
+        "Smooth endoplasmic reticulum",
+        432,
+        355,
+        [
+          "smooth ER"
+        ]
+      ],
+      [
+        "Golgi apparatus",
+        580,
+        160,
+        [
+          "golgi body",
+          "golgi"
+        ]
+      ],
+      [
+        "Mitochondrion",
+        338,
+        235,
+        [
+          "mitochondria"
+        ]
+      ],
+      [
+        "Centrosome",
+        646,
+        265,
+        [
+          "centrioles"
+        ]
+      ],
+      [
+        "Lysosome",
+        358,
+        388,
+        []
+      ],
+      [
+        "Cytoplasm",
+        711,
+        207,
+        []
+      ],
+      [
+        "Plasma membrane",
+        695,
+        453,
+        [
+          "cell membrane"
+        ]
+      ],
+      [
+        "Flagellum",
+        226,
+        577,
+        []
+      ]
+    ]
+  },
+  "plant-cell": {
+    "crop": [
+      100,
+      65,
+      480,
+      365
+    ],
+    "old": [
+      0,
+      0,
+      648.944,
+      474.999
+    ],
+    "credit": "Mariana Ruiz (LadyofHats); unlabelled derivative by Vivelefrat. Public domain.",
+    "file": "Plant_cell_structure_no_text-2.svg",
+    "parts": [
+      [
+        "Cell wall",
+        280,
+        291,
+        []
+      ],
+      [
+        "Plasma membrane",
+        319,
+        292,
+        [
+          "cell membrane"
+        ]
+      ],
+      [
+        "Chloroplast",
+        355,
+        274,
+        []
+      ],
+      [
+        "Central vacuole",
+        432,
+        300,
+        [
+          "vacuole"
+        ]
+      ],
+      [
+        "Tonoplast",
+        383,
+        330,
+        [
+          "vacuolar membrane"
+        ]
+      ],
+      [
+        "Mitochondrion",
+        507,
+        215,
+        [
+          "mitochondria"
+        ]
+      ],
+      [
+        "Nucleus",
+        550,
+        352,
+        []
+      ],
+      [
+        "Rough endoplasmic reticulum",
+        595,
+        368,
+        [
+          "rough ER"
+        ]
+      ],
+      [
+        "Smooth endoplasmic reticulum",
+        565,
+        301,
+        [
+          "smooth ER"
+        ]
+      ],
+      [
+        "Golgi apparatus",
+        440,
+        419,
+        [
+          "golgi body",
+          "golgi"
+        ]
+      ],
+      [
+        "Cytoplasm",
+        390,
+        260,
+        []
+      ],
+      [
+        "Plasmodesmata",
+        348,
+        480,
+        [
+          "plasmodesma"
+        ]
+      ]
+    ]
+  },
+  "brain": {
+    "crop": [
+      230,
+      100,
+      600,
+      570
+    ],
+    "old": [
+      230,
+      100,
+      600,
+      570
+    ],
+    "credit": "Jkwchui, after the US National Cancer Institute SEER anatomy plate. CC BY-SA 3.0. Labels removed, plate cropped and spinal cord added; adaptation under the same licence.",
+    "file": "Cerebrum_lobes.svg",
+    "parts": [
+      [
+        "Frontal lobe",
+        220,
+        270,
+        []
+      ],
+      [
+        "Primary motor cortex",
+        455,
+        195,
+        [
+          "motor cortex",
+          "somatomotor cortex"
+        ]
+      ],
+      [
+        "Primary somatosensory cortex",
+        512,
+        230,
+        [
+          "somatosensory cortex"
+        ]
+      ],
+      [
+        "Parietal lobe",
+        650,
+        165,
+        []
+      ],
+      [
+        "Occipital lobe",
+        784,
+        325,
+        []
+      ],
+      [
+        "Temporal lobe",
+        467,
+        455,
+        []
+      ],
+      [
+        "Cerebellum",
+        715,
+        571,
+        []
+      ],
+      [
+        "Medulla oblongata",
+        573,
+        711,
+        [
+          "medulla"
+        ]
+      ],
+      [
+        "Spinal cord",
+        605,
+        800,
+        []
+      ]
+    ]
+  },
+  "heart": {
+    "crop": [
+      80,
+      10,
+      505,
+      635
+    ],
+    "old": [
+      95,
+      18,
+      445,
+      626
+    ],
+    "credit": "Wapcaplet; crop by Yaddah. CC BY-SA 3.0. Labels removed and plate cropped; adaptation under the same licence.",
+    "file": "Diagram_of_the_human_heart_(cropped).svg",
+    "parts": [
+      [
+        "Aorta",
+        498,
+        190,
+        []
+      ],
+      [
+        "Superior vena cava",
+        240,
+        265,
+        [
+          "SVC"
+        ]
+      ],
+      [
+        "Inferior vena cava",
+        204,
+        1054,
+        [
+          "IVC"
+        ]
+      ],
+      [
+        "Pulmonary artery",
+        667,
+        299,
+        [
+          "pulmonary trunk"
+        ]
+      ],
+      [
+        "Pulmonary vein",
+        816,
+        457,
+        [
+          "pulmonary veins"
+        ]
+      ],
+      [
+        "Right atrium",
+        222,
+        650,
+        []
+      ],
+      [
+        "Left atrium",
+        615,
+        509,
+        []
+      ],
+      [
+        "Right ventricle",
+        485,
+        964,
+        []
+      ],
+      [
+        "Left ventricle",
+        733,
+        815,
+        []
+      ],
+      [
+        "Tricuspid valve",
+        348,
+        834,
+        [
+          "right atrioventricular valve"
+        ]
+      ],
+      [
+        "Mitral valve",
+        716,
+        631,
+        [
+          "bicuspid valve"
+        ]
+      ],
+      [
+        "Aortic valve",
+        553,
+        665,
+        []
+      ],
+      [
+        "Pulmonary valve",
+        433,
+        696,
+        [
+          "pulmonic valve"
+        ]
+      ]
+    ]
+  },
+  "digestive": {
+    "crop": [
+      120,
+      0,
+      320,
+      821
+    ],
+    "old": [
+      120,
+      0,
+      320,
+      821
+    ],
+    "credit": "Mariana Ruiz (LadyofHats). Public domain. Labels removed and plate cropped.",
+    "file": "Digestive_system_diagram_en.svg",
+    "parts": [
+      [
+        "Tongue",
+        376.14375000000007,
+        391.4938490625,
+        []
+      ],
+      [
+        "Parotid gland",
+        462.5718750000001,
+        428.78759906249996,
+        [
+          "parotid"
+        ]
+      ],
+      [
+        "Oesophagus",
+        506.5031249999999,
+        789.0688490625,
+        [
+          "esophagus"
+        ]
+      ],
+      [
+        "Liver",
+        280.06875,
+        1271.5532240625,
+        []
+      ],
+      [
+        "Gallbladder",
+        319.8375,
+        1359.4438490625,
+        [
+          "gall bladder"
+        ]
+      ],
+      [
+        "Stomach",
+        690.4125000000001,
+        1274.7032240624999,
+        []
+      ],
+      [
+        "Pancreas",
+        459.675,
+        1483.5594740625002,
+        []
+      ],
+      [
+        "Duodenum",
+        354.2625,
+        1518.3782240625,
+        []
+      ],
+      [
+        "Transverse colon",
+        482.3999999999999,
+        1642.2125990625002,
+        []
+      ],
+      [
+        "Jejunum",
+        600.91875,
+        1541.4688490625003,
+        []
+      ],
+      [
+        "Ileum",
+        427.0499999999999,
+        1923.7438490625002,
+        []
+      ],
+      [
+        "Ascending colon",
+        261.73125,
+        1853.6282240625,
+        []
+      ],
+      [
+        "Descending colon",
+        774.0843750000001,
+        1908.1344740625002,
+        []
+      ],
+      [
+        "Appendix",
+        362.92500000000007,
+        2045.9188490625002,
+        []
+      ],
+      [
+        "Rectum",
+        499.753125,
+        2119.6625990625002,
+        []
+      ]
+    ]
+  },
+  "neuron": {
+    "crop": [
+      0,
+      0,
+      819.179,
+      596.444
+    ],
+    "old": [
+      0,
+      0,
+      819.179,
+      596.444
+    ],
+    "credit": "Mariana Ruiz (LadyofHats). Public domain. Labels and leader lines removed.",
+    "file": "Complete_neuron_cell_diagram_en.svg",
+    "parts": [
+      [
+        "Dendrites",
+        103,
+        100,
+        []
+      ],
+      [
+        "Cell body",
+        380,
+        277,
+        [
+          "soma"
+        ]
+      ],
+      [
+        "Nucleus",
+        244,
+        348,
+        []
+      ],
+      [
+        "Nucleolus",
+        263,
+        364,
+        []
+      ],
+      [
+        "Axon hillock",
+        472,
+        310,
+        []
+      ],
+      [
+        "Myelin sheath",
+        584,
+        316,
+        [
+          "myelin"
+        ]
+      ],
+      [
+        "Node of Ranvier",
+        646,
+        309,
+        [
+          "node"
+        ]
+      ],
+      [
+        "Axon terminal",
+        814,
+        129,
+        [
+          "synaptic terminal",
+          "synaptic bouton"
+        ]
+      ],
+      [
+        "Synaptic vesicles",
+        500,
+        119,
+        []
+      ],
+      [
+        "Synaptic cleft",
+        495,
+        185,
+        []
+      ],
+      [
+        "Axon",
+        665,
+        483,
+        []
+      ],
+      [
+        "Mitochondrion",
+        340,
+        380,
+        [
+          "mitochondria"
+        ]
+      ]
+    ]
+  },
+  "atom": {
+    "crop": [
+      0,
+      0,
+      664.777,
+      666.954
+    ],
+    "old": [
+      0,
+      0,
+      664.777,
+      666.954
+    ],
+    "credit": "Yzmo. CC BY-SA 3.0. Quantum helium illustration, with a schematic magnified nucleus. Adaptation under the same licence.",
+    "file": "Helium_atom_QM.svg",
+    "parts": [
+      [
+        "Electron cloud",
+        269,
+        527,
+        [
+          "electron probability cloud",
+          "electron density"
+        ]
+      ],
+      [
+        "Nucleus",
+        404,
+        492,
+        [
+          "atomic nucleus"
+        ]
+      ],
+      [
+        "Proton",
+        757,
+        116,
+        [
+          "protons"
+        ]
+      ],
+      [
+        "Neutron",
+        715,
+        173,
+        [
+          "neutrons"
+        ]
+      ]
+    ],
+    "nativeAdaptation": "Forma 1.3 redraws the electron probability cloud and magnified helium-4 nucleus as native vector artwork, with no orbit paths. SVG source and retained Yzmo original are included; CC BY-SA 3.0. The cloud and nucleus inset use different scales."
+  }
+}
