@@ -2,8 +2,6 @@ FORMA — THIRD-PARTY ATTRIBUTIONS
 
 Natural Earth map data: public domain. https://www.naturalearthdata.com/about/terms-of-use/
 
-Periodic Table JSON by Bowserinator and contributors: CC BY-SA 3.0. The element dataset in this distribution is reduced to selected fields for elements 1–118. https://github.com/Bowserinator/Periodic-Table-JSON
-
 
 D3
 Copyright 2010-2023 Mike Bostock
@@ -51,54 +49,6 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
 OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
 TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 THIS SOFTWARE.
-
-
-Periodic Table JSON
-## [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0)
-as [cited by Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
-
-This is a human-readable summary of (and not a substitute for) the
-[license](https://creativecommons.org/licenses/by-sa/3.0/legalcode).
-
-This work is licensed under a Creative Commons Attribution-ShareAlike 3.0
-Unported License.
-
-### You are free:
-
-- to Share — to copy, distribute and transmit the work, and
-- to Remix — to [adapt](https://en.wikipedia.org/wiki/Literary_adaptation) the
-  work
-
-### Under the following terms:
-
-- Attribution — You must
-  [attribute](https://en.wikipedia.org/wiki/Attribution_(copyright)) the work in
-  the manner specified by the author or
-  [licensor](https://en.wiktionary.org/wiki/licensor) (but not in any way that
-  suggests that they endorse you or your use of the work.)
-- ShareAlike — If you alter, transform, or build upon this work, you may
-  distribute the resulting work only under the same, similar or a compatible
-  license.
-
-### With the understanding that:
-
-- Waiver — Any of the above conditions can be
-  [waived](https://en.wikipedia.org/wiki/Waiver) if you get permission from the
-  copyright holder.
-- Other Rights — In no way are any of the following rights affected by the
-  license:
-  - your [fair dealing](https://en.wikipedia.org/wiki/Fair_dealing) or
-    [fair use](https://en.wikipedia.org/wiki/Fair_use) rights;
-  - the author's
-    [moral rights](https://en.wikipedia.org/wiki/Moral_rights_(copyright_law));
-    and
-  - rights other persons may have either in the work itself or in how the work
-    is used, such as
-    [publicity](https://en.wikipedia.org/wiki/Personality_rights) or
-    [privacy](https://en.wikipedia.org/wiki/Privacy_law) rights.
-- Notice — For any reuse or distribution, you must make clear to others the
-  license terms of this work. The best way to do that is with a link to
-  [http://creativecommons.org/licenses/by-sa/3.0](http://creativecommons.org/licenses/by-sa/3.0)
 
 
 DM Sans
@@ -294,38 +244,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
 
-NATIVE SCIENCE ARTWORK
-
-Animal cell — Mariana Ruiz (LadyofHats); unlabelled derivative by HoverFly. Public domain.
-https://commons.wikimedia.org/wiki/File:Animal_cell_structure_no_text.svg
-
-Plant cell — Mariana Ruiz (LadyofHats); unlabelled derivative by Vivelefrat. Public domain.
-https://commons.wikimedia.org/wiki/File:Plant_cell_structure_no_text-2.svg
-
-Neuron — Mariana Ruiz (LadyofHats). Public domain. Labels and leader lines removed.
-https://commons.wikimedia.org/wiki/File:Complete_neuron_cell_diagram_en.svg
-
-Digestive system — Mariana Ruiz (LadyofHats). Public domain. Labels removed and plate cropped.
-https://commons.wikimedia.org/wiki/File:Digestive_system_diagram_en.svg
-
-Brain — vectorisation by Jkwchui, after the US National Cancer Institute SEER anatomy plate. CC BY-SA 3.0. Labels removed, plate cropped and spinal cord added by Forma.
-https://commons.wikimedia.org/wiki/File:Cerebrum_lobes.svg
-
-Heart — Wapcaplet; crop by Yaddah. CC BY-SA 3.0. Labels removed and plate cropped.
-https://commons.wikimedia.org/wiki/File:Diagram_of_the_human_heart_(cropped).svg
-
-Helium — Yzmo. CC BY-SA 3.0. Electron probability cloud with a magnified schematic nucleus; the nuclear inset is not to scale.
-https://commons.wikimedia.org/wiki/File:Helium_atom_QM.svg
-
-The brain, heart, helium illustrations and their adapted SVG/PNG artwork are distributed under CC BY-SA 3.0:
-https://creativecommons.org/licenses/by-sa/3.0/
-https://creativecommons.org/licenses/by-sa/3.0/legalcode
-The adapted vector sources are included in Content/Artwork. The licence applies to these illustrations, not to unrelated application code. No endorsement by the original authors is implied.
-
-Functional groups — original depictions generated from explicit SMILES using RDKit. Ethanol CCO; acetone CC(=O)C; acetic acid CC(=O)O; ethylamine CCN; ethanethiol CCS; methyl acetate CC(=O)OC.
-https://www.rdkit.org/docs/GettingStartedInPython.html#drawing-molecules
-RDKit is a BSD-licensed build-time tool; it is not included in the application.
-
-Forma 1.4: nephron.svg, alveolus.svg and the replacement groups.svg are original Forma educational vector schematics. Copyright 2026 Forma. Scientific references are listed in SCIENCE-REVISION-1.4.md; no OpenStax figure is reproduced in these plates. Earlier third-party attribution applies to the retained original artwork, not these replacement diagrams.
-
 Forma 1.6 geography: per-layer source and licence records are in geography-sources.json; adapted subdivision databases retain their recorded licences, including ODbL 1.0 and CC BY-SA where applicable. Full notices and licence links: GEOGRAPHY-LICENCES.md. Editable derived datasets are distributed in Content/Boards with Tools/build-geography.py. Contains OS data © Crown copyright and database right 2026. Irish county data: Central Statistics Office, Government of Ireland. Vietnam provinces: General Statistics Office / OCHA. Virginia labels: US Census Bureau TIGERweb.
+
+
+Flag artwork — Accurate country flags by Hampus Joakim Borgos and contributors
+https://github.com/hampusborgos/country-flags/tree/c09927e63705529bbf59ca6684cd9b23225dddad
+Source artwork from Wikimedia Commons. The upstream project documents the flag artwork as public domain and maintains national flag proportions. Upstream source README is retained in FLAG-ARTWORK-SOURCE.md.

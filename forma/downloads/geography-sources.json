@@ -61,15 +61,17 @@
   },
   {
     "boardID": "regions-arg",
-    "provider": "geoBoundaries gbOpen",
-    "source": "geoBoundaries, Wikimedia",
-    "url": "commons.wikimedia.org/wiki/File",
-    "download": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/ARG/ADM1/geoBoundaries-ARG-ADM1_simplified.geojson",
-    "license": "Creative Commons Attribution 2.5 Generic",
-    "licenseSource": "commons.wikimedia.org/wiki/File",
-    "edition": "2006",
-    "boundaryID": "ARG-ADM1-19177384",
-    "sha256": "7cc9b00ba139e57f59611993d96d07eb84d955ed5bd6bd6f1dcb864e1baf549c"
+    "provider": "IGN Argentina",
+    "source": "FUENTE: Instituto Geográfico Nacional de la República Argentina. Province WFS export, 18 October 2026. 23 provinces and Buenos Aires city, South American extent; Antarctic claims and separately quizzed South Atlantic territories are outside this quiz. Adapted and simplified for Forma. Source data freely redistributable under the IGN reuse terms; attribution retained. https://www.ign.gob.ar/descargas/tyc1.html",
+    "url": "https://www.ign.gob.ar/NuestrasActividades/InformacionGeoespacial/CapasSIG",
+    "download": "https://wms.ign.gob.ar/geoserver/ign/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=ign%3Aprovincia&outputFormat=application%2Fjson",
+    "edition": "IGN snapshot 2026-10-18",
+    "boundaryID": "IGN-provincias-20261018",
+    "license": "IGN reuse terms: attribution; free redistribution of source data; commercial derived products permitted.",
+    "licenseSource": "https://www.ign.gob.ar/descargas/tyc1.html",
+    "sha256": "f3f30c73a68b5462cd5bff620e170b70535155ec9470238b399694b020966b1e",
+    "adaptedInput": "Tools/GeographyInputs/argentina-ign-20261018.geojson",
+    "adaptedInputSHA256": "651b71569edd49389bd8477d44527aae82b9759088faa8ad365ec79ae0ac8eee"
   },
   {
     "boardID": "regions-arm",
@@ -1477,15 +1479,18 @@
   },
   {
     "boardID": "regions-nam",
-    "provider": "geoBoundaries gbOpen",
-    "source": "Natural Earth",
-    "url": "www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/",
-    "download": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NAM/ADM1/geoBoundaries-NAM-ADM1_simplified.geojson",
-    "license": "Public Domain",
-    "licenseSource": "www.naturalearthdata.com/about/terms-of-use/",
-    "edition": "2022",
-    "boundaryID": "NAM-ADM1-33880854",
-    "sha256": "28958763e96646281893efb7ef3a654030250466867dbb1a285c7952251a1d05"
+    "provider": "Namibia Statistics Agency / OCHA HDX / geoBoundaries",
+    "source": "Namibia Statistics Agency (NSA), via OCHA HDX and geoBoundaries gbHumanitarian. Publication/source update: 19 January 2023; source metadata gives 2011 as its geometry reference year. Fourteen-region coverage and names checked against the NSA 2023 Census. CC BY 3.0 IGO. Adapted and simplified for Forma. https://data.humdata.org/dataset/cod-ab-nam",
+    "url": "https://data.humdata.org/dataset/cod-ab-nam",
+    "download": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbHumanitarian/NAM/ADM1/geoBoundaries-NAM-ADM1_simplified.geojson",
+    "edition": "NSA/HDX publication 2023",
+    "boundaryID": "NAM-ADM1-65246180",
+    "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+    "licenseSource": "data.humdata.org/dataset/cod-ab-nam",
+    "sha256": "9a0c5d2a8a34715f356ddc27d795ee471edc9ec602cef4cb82440b823fad0c9a",
+    "adaptedInput": "Tools/GeographyInputs/namibia-nsa-2023.geojson",
+    "adaptedInputSHA256": "9a0c5d2a8a34715f356ddc27d795ee471edc9ec602cef4cb82440b823fad0c9a",
+    "geometryReferenceYear": "2011"
   },
   {
     "boardID": "regions-ner",
@@ -3057,7 +3062,24 @@
     "licenseSource": "https://www.ordnancesurvey.co.uk/products/open-data",
     "edition": "2026-05",
     "boundaryID": "osceremonial",
-    "sha256": "f00f02bcb014327712dcc3128d92c2a9bb3e34f73a8878a9d40c4fe063bb5b7a"
+    "sha256": "f00f02bcb014327712dcc3128d92c2a9bb3e34f73a8878a9d40c4fe063bb5b7a",
+    "displayClip": {
+      "provider": "Office for National Statistics",
+      "edition": "December 2025",
+      "description": "Bristol unitary authority boundary, generalised to 20m and clipped to Mean High Water. Used to remove the Severn Estuary administrative water corridor from the county quiz.",
+      "source": "https://www.data.gov.uk/dataset/563f5079-796d-4190-ac7f-49219a6de896/counties-and-unitary-authorities-december-2025-boundaries-uk-bgc",
+      "download": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Counties_and_Unitary_Authorities_December_2025_Boundaries_UK_BGC/FeatureServer/0/query?where=CTYUA25CD%3D%27E06000023%27&outFields=CTYUA25CD%2CCTYUA25NM&outSR=4326&f=geojson",
+      "license": "Open Government Licence v3.0",
+      "copyright": "Contains Ordnance Survey and ONS data. Crown copyright and database right.",
+      "sha256": "3a167413bc4129218afd848dea81d7670d82fa1a3d57120a64ef7eef27066a06",
+      "countyBoundary": {
+        "provider": "Ordnance Survey Boundary-Line",
+        "edition": "2026-05",
+        "source": "https://www.ordnancesurvey.co.uk/products/boundary-line",
+        "license": "Open Government Licence v3.0",
+        "sha256": "3a26232a6a07c6822d3a98dce592a37e63e8510124b7375dc352fd246b539fd8"
+      }
+    }
   },
   {
     "boardID": "counties-wales",
