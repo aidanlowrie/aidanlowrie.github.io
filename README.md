@@ -1,9 +1,7 @@
-# Aidan Lowrie — project portfolio
+# Aidan Lowrie — personal website
 
-Source for my GitHub Pages portfolio, covering selected machine-learning and AI
-research and engineering work.
-
-Personal portfolio built with Jekyll and served through GitHub Pages.
+Personal homepage and Forma pages, built with Jekyll and served through GitHub
+Pages at https://aidanlowrie.com.
 
 ## Local development
     bundle install
@@ -14,7 +12,6 @@ Then open http://localhost:4000
 Push to `main`. GitHub Pages rebuilds automatically.
 
 ## Editing
-- Pages: `index.html`, `about/birmingham.md`, `about/amsterdam.md`, `about/edinburgh.md`, `cv.md`, `now.md`, `writing.md` (`/other/`), `projects/index.md`
-- Projects: `_projects/*.md`
-- Posts: add dated files to `_posts/` (e.g. `2026-09-01-title.md`)
+- Homepage: `index.html`
+- Forma: `forma/index.html`, with support, privacy and credits under `forma/`
 - Site-wide settings (email, social handles): `_config.yml`

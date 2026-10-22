@@ -2,26 +2,13 @@ title: Aidan Lowrie
 description: >-
   Machine-learning and AI researcher working across model evaluation,
   NLP, computer vision and computational biology.
-url: "https://aidanlowrie.github.io"
+url: "https://aidanlowrie.com"
 author: Aidan Lowrie
 
 email: ""
 github: "aidanlowrie"
 linkedin: "aidan-lowrie"
 scholar: ""
-
-permalink: /writing/:title/
-
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-
-defaults:
-  - scope: { path: "", type: "projects" }
-    values: { layout: "project" }
-  - scope: { path: "", type: "posts" }
-    values: { layout: "post" }
 
 sass:
   style: compressed
